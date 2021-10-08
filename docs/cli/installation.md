@@ -8,7 +8,7 @@ npm install -g ponicode
 
 > **<span style="color:green">NOTE<span>**
 >
-> No matter the language you wish to test Ponicode CLI on, node **version 14 (recommended) or 12** is required. [Click here to download node](https://nodejs.org/en/)
+> No matter the language you wish to test Ponicode CLI on, **Node version 14 (recommended) or 12** is required. [Click here to download node](https://nodejs.org/en/)
 
 ## Link Ponicode CLI
 

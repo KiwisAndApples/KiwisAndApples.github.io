@@ -7,7 +7,7 @@ This icon indicated that you can use Ponicode on this function.
 A clickable decorator will appear above the all supported functions. Select `Ponicode: Unit test` to open the interface.
 
 <p align="center">
-    <img src="images/ponicode_decorator.png" alt="ponicode_decorator" width="400"/>
+    <img src="ut_extension/get_started/first_steps/images/ponicode_decorator.png" alt="ponicode_decorator" width="600"/>
 </p>
 
 ## Keyboard shortcut

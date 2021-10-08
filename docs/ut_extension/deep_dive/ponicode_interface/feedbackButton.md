@@ -1,8 +1,12 @@
 # Feedback button
-If you want to contact us with a problem or comment about the Ponicode extension, there is a <i class="far fa-comment-dots" style="color:yellow"></i>bubble button that opens an interface to send us your feedbacks.
+If you want to contact us with a problem or comment about the Ponicode extension, click on the bubble ( <i class="far fa-comment-dots" style="color:blue"></i> ) button in the Ponicode Interface. It will open a new page which you can use to send us your feedback.
 
-![Feedback button](../images/feedback_1.png)
+<p align="center">
+    <img src="ut_extension/deep_dive/images/feedback_1.png" alt="feedback_button" width="650"/>
+</p>
 
 Once the feedback window is open, simply write your message and click on Send.
 
-![Feedback window](../images/feedback_2.png)
+<p align="center">
+    <img src="ut_extension/deep_dive/images/feedback_2.png" alt="feedback_window" width="650"/>
+</p>

@@ -3,7 +3,7 @@
 Today, Ponicode is available exclusively in **Visual Studio Code** (version 1.37.1 or above).
 
 <p align="center">
-    <img src="images/vs_code.png" alt="input-column-selector" width="40"/>
+    <img src="ut_extension/supported_technologies/images/vs_code.png" alt="input-column-selector" width="40"/>
 </p>
 
 You can download Ponicode from the [marketplace](https://marketplace.visualstudio.com/items?itemName=ponicode.ponicode&utm_source=VSCode.pro&utm_campaign=AhmadAwais) or directly from within your IDE. For more information about how to instlal and setup Ponicode, check out our dedicated documentation page on how to [Get Started](https://ponicode.com/docs/unit-test/get-started).

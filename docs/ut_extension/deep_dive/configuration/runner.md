@@ -5,12 +5,18 @@ The test runner is configured via 2 means: throught VSCode or with config files.
 ## VSCode settings
 
 Open your VSCode settings `File > Preferences > Settings` or `CTRL + ,` (Windows and Linux) or `CMD + ,` (Macos). Then search for "Ponicode"
-![](images/ponicode_settings.png)
+
+<p align="center">
+    <img src="ut_extension/deep_dive/configuration/images/ponicode_settings.png"  width="700"/>
+</p>
 
 ⚠️ Please make sure to select __workspace__ tab and not __user__ one.
 
 Inside you can configure how the test runner handles typescript files throught the vscode settings.
-![](images/runner_1.png)
+
+<p align="center">
+    <img src="ut_extension/deep_dive/configuration/images/runner_1.png"  width="700"/>
+</p>
 
 There is 3 available values:
 * __Use .js file if exists and up to date__: The test runner will try to run the compiled js file. If it is missing or outdated, the test runner will use the source .ts file.
