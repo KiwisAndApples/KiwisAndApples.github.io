@@ -1,6 +1,4 @@
-# Your first Unit Test in the Ponicode Interface
-
-## Opening the Ponicode interface
+# Opening the Ponicode interface
 
 Look for any `Javascript`, `Typescript` or `Python` function with a Ponicode icon to its left.
 

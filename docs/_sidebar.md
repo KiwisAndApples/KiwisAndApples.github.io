@@ -9,8 +9,8 @@
       - [Opening the Ponicode Interface](ut_extension/gui_test/open_gui.md)
       - [Your first Unit Test](ut_extension/gui_test/firstUtGUI.md)
       <!-- - [Intro] -->
-      - [The Unit Tests section](ut_extension/gui_test/ponicode_interface/unitTests.md)
-      - [Suggestions](ut_extension/gui_test/ponicode_interface/suggestions.md)
+      - [The Unit Tests section](ut_extension/gui_test/unitTests.md)
+      - [Suggestions](ut_extension/gui_test/suggestions.md)
         <!-- - [Adding or removing columns] -->
       <!-- - [The bold symbol] -->
       <!-- - [The coverage indication] -->

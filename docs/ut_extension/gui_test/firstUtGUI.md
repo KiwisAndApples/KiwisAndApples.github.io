@@ -1,4 +1,4 @@
-## Creating your first unit test in the Ponicode Interface
+# Creating your first unit test in the Ponicode Interface
 
 Ponicode interface is composed of 2 sections:
 
