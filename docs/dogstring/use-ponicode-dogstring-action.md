@@ -6,40 +6,40 @@
 
 2. Sign in with your **GitHub** or **GitLab** account
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_1.png" alt="sign_in" width="600"/>
+    <img src="dogstring/images/use_dogstring_1.png" alt="sign_in" width="600"/>
 </p>
 
 3. Click on `authorize Ponicode`
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_2.png" alt="authorize" width="600"/>
+    <img src="dogstring/images/use_dogstring_2.png" alt="authorize" width="600"/>
 </p>
 
 4. Copy you tokens
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_3.png" alt="token" width="650"/>
+    <img src="dogstring/images/use_dogstring_3.png" alt="token" width="650"/>
 </p>
 
 5. Go to your repository where you want to use the action.
 
 6. Go to settings.
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_7.png" alt="settings" width="650"/>
+    <img src="dogstring/images/use_dogstring_7.png" alt="settings" width="650"/>
 </p>
 
 
 7. Click on `Secrets`
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_4.png" alt="settings" width="650"/>
+    <img src="dogstring/images/use_dogstring_4.png" alt="settings" width="650"/>
 </p>
 
 8. Click on `New repository secret`
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_5.png" alt="secrets" width="650"/>
+    <img src="dogstring/images/use_dogstring_5.png" alt="secrets" width="650"/>
 </p>
 
 9. Name it *`"PONICODE_TOKEN"`* and paste your token in the **Value**.
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_6.png" alt="secrets" width="650"/>
+    <img src="dogstring/images/use_dogstring_6.png" alt="secrets" width="650"/>
 </p>
 
 
@@ -52,12 +52,12 @@ One way of doing it is directly on **GitHub**.
 
 1. Click on `Add File` and create new file
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_8.png" alt="add_file" width="650"/>
+    <img src="dogstring/images/use_dogstring_8.png" alt="add_file" width="650"/>
 </p>
 
 2. Name it `.github/worflows/ponicode_action.yml`
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_9.png" alt="github_editor" width="650"/>
+    <img src="dogstring/images/use_dogstring_9.png" alt="github_editor" width="650"/>
 </p>
 
 3. Paste one of our example in the Edit new file section
@@ -66,7 +66,7 @@ One way of doing it is directly on **GitHub**.
 
 **YAML file example**
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_10.png" alt="yaml_file" width="650"/>
+    <img src="dogstring/images/use_dogstring_10.png" alt="yaml_file" width="650"/>
 </p>
 
 In the first box you control what will trigger the action.

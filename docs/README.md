@@ -12,6 +12,6 @@ An IDE extension which allows you to generate Unit Tests for your Javascript, Ty
 
 An NPM package which allows to generate unit tests in bulk for a whole file, directory or project, directly from the command line.
 
-2. [Ponicode DogString](dogstring_action/)
+2. [Ponicode DogString](dogstring/)
 
 Ponicode developed technology that generates docstring documentation for your Python functions. It is available to try in a playground, or usable as a Github Action.

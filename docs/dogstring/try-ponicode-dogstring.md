@@ -3,7 +3,7 @@
 You can access the [DogString Playground](https://api.ponicode.com/playground/) at https://api.ponicode.com/playground/.
 
 <p align="center">
-    <img src="dogstring_action/images/dogstring_action_2.png" alt="DogString Playground" width="800"/>
+    <img src="dogstring/images/dogstring_2.png" alt="DogString Playground" width="800"/>
 </p>
 
 1. Enter your function in box number 1
@@ -18,22 +18,22 @@ In order to obtain your **Ponicode Token**, you need to follow these steps:
 
 2. Sign in with your **GitHub** or **GitLab** account.
 <p align="center">
-    <img src="dogstring_action/images/dogstring_action_3.png" alt="sign_in" width="650"/>
+    <img src="dogstring/images/dogstring_3.png" alt="sign_in" width="650"/>
 </p>
 
 3. Click on authorize Ponicode
 <p align="center">
-    <img src="dogstring_action/images/dogstring_action_4.png" alt="authorize_ponicode" width="550"/>
+    <img src="dogstring/images/dogstring_4.png" alt="authorize_ponicode" width="550"/>
 </p>
 
 4. Copy your token
 <p align="center">
-    <img src="dogstring_action/images/dogstring_action_5.png" alt="ponicode_token" width="650"/>
+    <img src="dogstring/images/dogstring_5.png" alt="ponicode_token" width="650"/>
 </p>
 
 5. Paste it into the playground
 <p align="center">
-    <img src="dogstring_action/images/dogstring_action_6.png" alt="token_playground" width="500"/>
+    <img src="dogstring/images/dogstring_6.png" alt="token_playground" width="500"/>
 </p>
 
 6. The `GENERATE DOCSTRING` button should go green again! Enjoy!
