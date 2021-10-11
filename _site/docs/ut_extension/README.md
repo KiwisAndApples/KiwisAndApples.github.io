@@ -12,6 +12,6 @@ Whenever Ponicode identifies a function in your code which it is able to test, i
 
 Both features are powered by the **Ponicode's AI engine**, which suggests relevant input values for the function under test
 
-Make sure you also explore the [**Ponicode Side Panel**](ut_extension/left_panel/), a place where to find information on all the files and functions where Ponicode can help you test.
+Make sure you also explore the [**Ponicode Side Panel**](ut_extension/side_panel/), a place where to find information on all the files and functions where Ponicode can help you test.
 
 Visit the section [**Supported Technologies**](ut_extension/supported_technologies/) to find out which IDEs Ponicode is available for, and which languages and test frameworks are coming next.
