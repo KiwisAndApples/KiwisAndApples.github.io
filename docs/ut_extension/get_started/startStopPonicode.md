@@ -8,7 +8,7 @@ This tab indicates you the extension status and will allow you to start or stop 
     <img src="ut_extension/get_started/images/vscode_status_bar.png" alt="ponicode_status_tab" width="600"/>
 </p>
 
-### First time starting
+### Activating Ponicode for the first time
 
 After installing, the extension status is `Ponicode: Sign in` meaning you must sign in in order to enable Ponicode. 
 

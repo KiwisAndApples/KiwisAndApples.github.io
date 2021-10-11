@@ -12,8 +12,8 @@ For the moment, Ponicode can be used for the following languages:
 - 
 We are working on expanding the languages and libraries we support and focusing on **React** + **Redux**.
 
-## Testing Frameworks
-The testing frameworks used by Ponicode are :
+## Test Frameworks
+The test frameworks used by Ponicode are :
 - For **JavaScript** et **TypeScript** code testing: **Jest** and **rewire**
 - For **Python**: **pyTest** and **pytest-mock**
 

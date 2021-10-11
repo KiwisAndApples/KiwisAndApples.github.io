@@ -4,15 +4,31 @@ The Unit Tests section in the Ponicode interface is your way to directly interac
 
 When you add or remove a test case in this section, your test file is updated in real time and vice versa.
 
-## Adding test cases to the section
+## Adding test cases
 
-Adding new test cases to the Unit Tests section can be done in several ways. You can either create a test case manually or add a test case from the Suggestion section.
-![Test suggestions](images/running_test_case.png)
+You can add a new test case manually by clicking on the blue icon at the bottom of the unit tests section.
 
-## Removing test cases
+<p align="center">
+    <img src="ut_extension/gui_test/images/running_test_case.png" alt="Test suggestions" width="600"/>
+</p>
 
-To remove a test case, simply click on the 🗑 icon at the right side of the test case row.
+You can also add test cases chosen from the selection of suggestions proposed to you by the Ponicode AI. Simply click on the <i class="fas fa-plus" style="color:green"></i>`Plus` button on the right hand side of each test case row.
+
+<p align="center">
+    <img src="ut_extension/gui_test/images/suggestions_2.png" alt="Adding test suggestions" width="600"/>
+</p>
+
+## Updating Test Cases
+All input and outputs values are editable cells. You can complete or overwrite them whenever you want. See the dedicated docs page for more information on [what can be entered in a cell](ut_extension/gui_test/cell.md).
+
+## Removing Test Cases
+
+To remove a test case, simply click on the <i class="fas fa-trash-alt" style="color:gray"></i>`Bin` icon at the right side of the test case row.
+
+<p align="center">
+    <img src="ut_extension/gui_test/images/suggestions_3.png" alt="Removing test suggestions" width="600"/>
+</p>
 
 ## Running test cases
 
-You might want to run your test cases to see wether they pass or not. Take a look to the doc deditacted to [running tests](./runningTests.md)
+You might want to run your test cases to see wether they pass or not. Read the dedicated docs page [running tests](./runningTests.md) for more information.

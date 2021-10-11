@@ -2,6 +2,8 @@
 
 Ponicode Unit Test is an IDE extension which allows to egnerate Unit Tests for your Javascript, Typescript and Python code in a matter of seconds. 
 
+Follow the [Get Started guide](ut_extension/get_started/) to learn how to install and activate the extension.
+
 Whenever Ponicode identifies a function in your code which it is able to test, it displays a little Pony icon to its left. On each of these functions, you can decide to apply **Ponicode Unit Test** or **Ponicode Flash Test**. 
 
 [**Ponicode Unit Test**](ut_extension/gui_test/) opens the **Ponicode interface**, a GUI built specifically to simplify the display, creation and manipulation of unit tests. The Ponicode interface allows a high level of customisation - enabling you to choose and edit your inputs, mocks and assertions.
