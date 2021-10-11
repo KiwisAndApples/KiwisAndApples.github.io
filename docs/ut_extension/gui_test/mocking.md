@@ -1,6 +1,6 @@
 # Mocking (stubs and spies)
 
-## How to mock with Ponicode
+## Mocking with Ponicode
 
 You can use Ponicode to mock return values of callables by following these steps:
 
@@ -29,15 +29,16 @@ Similarly, enter in the the column `calledWithh` an array with the values that t
 <p align="center">
     <img src="ut_extension/gui_test/images/mocking_value.png" width="600"/>
 </p>
-## How to use Ponicode mocking with user-defined functions
+
+## Mocking user-defined functions
 
 Ponicode can mock functions that are defined in the same projects.
 
-### Python
+**Python**
 
 Most user-defiend functions can be mocked.
 
-### JavaScript / TypeScript
+**JavaScript / TypeScript**
 
 Jest imposes that in order to be mocked, functions must be exported.
 
@@ -90,11 +91,13 @@ What will happen?
 5. **Jest** will mock _db_ in **Jest**’s context.
 6. _foo_ will call _db.query_ in **Node**’s context, the mock will not work. This is a Ponicode-specific limitation.
 
-## Package Functions
+## Mocking libraries
+
+**Javascript**
 
 Ponicode can mock functions that are defined in node modules. Ponicode can also mock functions from **Node** built-in modules (_fs_, _util_, etc.).
 
-### Exclusions
+***Exclusions***
 
 * The tested function must be exported (this is a Ponicode-specific limitation).
 * We do not support mocking direct exports.
@@ -178,16 +181,11 @@ Ponicode can mock native functions that do not need to be imported. Here are som
 
 Ponicode can mock global variables that are defined in the same file as the tested function.
 
-### Criteria
-
 - The variable must be defined in global scope.
 - If you want to stub the variable, the variable must not be a constant.
 
-## TypeScript And JavaScript Recommendation
 
-We recommend to always **export** functions in your project that use mocks or will be mocked, in order to avoid special edge cases proper to JavaScript & TypeScript.
-
-
-
-
-
+> **<span style="color:green">TypeScript And JavaScript Recommendations<span>**
+>
+> We recommend to always **export** functions in your project that use mocks or will be mocked, in order to avoid special edge cases proper to JavaScript & TypeScript.
+>
