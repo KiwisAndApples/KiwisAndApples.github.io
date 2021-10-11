@@ -1,4 +1,4 @@
-# Mocking (stubs + spies)
+# Mocking (stubs and spies)
 
 ## How to mock with Ponicode
 
@@ -40,7 +40,7 @@ Jest imposes that in order to be mocked, functions must be exported.
 
 ### Examples:
 
-### ✅ Works
+#### ✅ Works
 
 ```
 const db = require('./db')
@@ -50,7 +50,7 @@ function foo () {
 module.exports = { foo }
 ```
 
-### ❌ Fails
+#### ❌ Fails
 
 ```
 const { query } = require('./db')
@@ -60,7 +60,7 @@ function foo () {
 module.exports = { foo }
 ```
 
-### ❌ Fails with Jest
+#### ❌ Fails with Jest
 
 ```
 const query = require('./db').query
@@ -94,7 +94,7 @@ Ponicode can mock functions that are defined in node modules. Ponicode can also 
 
 ### Examples:
 
-### ✅ Works
+#### ✅ Works
 
 ```
 const axios = require('axios')
@@ -104,7 +104,7 @@ function foo () {
 module.exports = { foo }
 ```
 
-### ❌ Fails
+#### ❌ Fails
 
 ```
 const axios = require('axios')
@@ -115,7 +115,7 @@ function foo () {
 
 _foo_ is not exported. Ponicode-specific limitation.
 
-### ❌ Fails
+#### ❌ Fails
 
 ```
 const { get } = require('axios')
@@ -127,7 +127,7 @@ module.exports = { foo }
 
 The reference to _axios.get_ was copied before the mock was set up.
 
-### ❌ Fails
+#### ❌ Fails
 
 ```
 const axios = require('axios')
@@ -139,7 +139,7 @@ module.exports = { foo }
 
 We cannot mock _axios_ itself. This is a Ponicode-specific limitation.
 
-### ❌ Fails
+#### ❌ Fails
 
 ```
 const pkg = require('package')

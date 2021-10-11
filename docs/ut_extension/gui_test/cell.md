@@ -60,7 +60,7 @@ Assertion columns can be of different types:
 * **"is truthy" columns**: boolean [JS/TS only]
 
 
-## Instance 
+## The column *"instance"*
 
 When testing methods, the first column in the Ponicode interface is the `instance` column. It refers to the instance we want to apply our method to for the current test case. This is a dropdown field, where the available choices are the different class instances declared in the `Before Each` section.
 Please note that objects instanciated with a *static* constructor will not appear in the drop down; please always construct your instance using the keyword `new`.
