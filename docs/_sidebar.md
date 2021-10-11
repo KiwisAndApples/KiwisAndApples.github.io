@@ -3,7 +3,7 @@
 - [<i class="fas fa-chevron-down" style="color:grey"></i> Ponicode Unit Test Extension](ut_extension/)
   - [<i class="fas fa-chevron-down" style="color:grey"></i> Get Started](ut_extension/get_started/)
     - [Installation](ut_extension/get_started/installation.md)
-    - [Start or Stop Ponicode](ut_extension/get_started/first_steps/startStopPonicode.md)
+    - [Start or Stop Ponicode](ut_extension/get_started/startStopPonicode.md)
       <!-- - [Create a test manually] -->
   - [<i class="fas fa-chevron-down" style="color:grey"></i> Ponicode Unit Test (GUI)](ut_extension/unit_test/)
       - [Opening the Ponicode Interface](ut_extension/gui_test/open_gui.md)

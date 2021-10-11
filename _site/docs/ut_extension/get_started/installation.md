@@ -55,10 +55,6 @@ To confirm the link was successfull you should see `Ponicode: 🚀 Ready` on you
 ![Ponicode Wizard: Extensions section](images/ponicode-ready.png)
 
 
-[![How to install Ponicode](https://img.youtube.com/vi/ojUDOalrvIc/0.jpg)](https://www.youtube.com/watch?v=ojUDOalrvIc)
-
-
-
 
 
 [wizard]: https://app.ponicode.com

@@ -1,5 +1,3 @@
-# What can be entered in a cell
-
 Each row in the Ponicode interface corresponds to a test case. Each cell corresponds to a value - be it an input value, a mock value, an assertion value, or a value that indicates the tested instance.
 ## Inputs
 
