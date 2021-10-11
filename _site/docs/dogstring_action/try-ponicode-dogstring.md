@@ -1,8 +1,6 @@
-# Get Started
+# DogString Playground
 
 You can access the [DogString Playground](https://api.ponicode.com/playground/) at https://api.ponicode.com/playground/.
-
-## How to Proceed
 
 <p align="center">
     <img src="dogstring_action/images/dogstring_action_2.png" alt="DogString Playground" width="800"/>

@@ -25,14 +25,13 @@
       - [Modifying the test file](ut_extension/gui_test/modifyingTestFile.md)
       - [Supported import syntax](ut_extension/gui_test/importSyntax.md)
       - [Sending us feedback](ut_extension/gui_test/feedback.md)
-      <!-- - [Coverage alculation] -->
+      <!-- - [Coverage calculation] -->
       - [<i class="fas fa-chevron-down" style="color:grey"></i> Configuration](ut_extension/gui_test/configuration/)
         - [Runner](ut_extension/gui_test/configuration/runner.md)
         - [Test Location](ut_extension/gui_test/configuration/testLocation.md)
   - [<i class="fas fa-chevron-down" style="color:grey"></i> Ponicode Flash Test](ut_extension/flash_test/)
   - [<i class="fas fa-chevron-down" style="color:grey"></i> The Side Panel](ut_extension/left_panel/)
   - [<i class="fas fa-chevron-down" style="color:grey"></i> Supported Technologies](ut_extension/supported_technologies/)
-    - [IDEs](ut_extension/supported_technologies/IDEs.md)
     <!-- - [Languages] -->
     <!-- - [Test Frameworks] -->
     <!-- - [Environments] -->

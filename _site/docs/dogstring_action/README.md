@@ -1,4 +1,4 @@
-# Ponicode DogString Action
+# Ponicode DogString
 
 * [What is Ponicode DogString Action?](dogstring_action/what-is-ponicode-dogstring-action.md)
 * [Try Ponicode DogString](dogstring_action/try-ponicode-dogstring.md)

@@ -16,30 +16,30 @@
 
 4. Copy you tokens
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_3.png" alt="token" width="700"/>
+    <img src="dogstring_action/images/use_dogstring_3.png" alt="token" width="650"/>
 </p>
 
 5. Go to your repository where you want to use the action.
 
 6. Go to settings.
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_7.png" alt="settings" width="700"/>
+    <img src="dogstring_action/images/use_dogstring_7.png" alt="settings" width="650"/>
 </p>
 
 
 7. Click on `Secrets`
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_4.png" alt="settings" width="700"/>
+    <img src="dogstring_action/images/use_dogstring_4.png" alt="settings" width="650"/>
 </p>
 
 8. Click on `New repository secret`
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_5.png" alt="secrets" width="700"/>
+    <img src="dogstring_action/images/use_dogstring_5.png" alt="secrets" width="650"/>
 </p>
 
 9. Name it *`"PONICODE_TOKEN"`* and paste your token in the **Value**.
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_6.png" alt="secrets" width="700"/>
+    <img src="dogstring_action/images/use_dogstring_6.png" alt="secrets" width="650"/>
 </p>
 
 
@@ -52,21 +52,21 @@ One way of doing it is directly on **GitHub**.
 
 1. Click on `Add File` and create new file
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_8.png" alt="add_file" width="700"/>
+    <img src="dogstring_action/images/use_dogstring_8.png" alt="add_file" width="650"/>
 </p>
 
 2. Name it `.github/worflows/ponicode_action.yml`
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_9.png" alt="github_editor" width="700"/>
+    <img src="dogstring_action/images/use_dogstring_9.png" alt="github_editor" width="650"/>
 </p>
 
 3. Paste one of our example in the Edit new file section
 4. Click on commit new file
 5. You can now use our Github action to generate docstrings for all your Python files!
 
-### General overview of the YAML file
+**YAML file example**
 <p align="center">
-    <img src="dogstring_action/images/use_dogstring_10.png" alt="yaml_file" width="700"/>
+    <img src="dogstring_action/images/use_dogstring_10.png" alt="yaml_file" width="650"/>
 </p>
 
 In the first box you control what will trigger the action.

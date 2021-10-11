@@ -1,7 +1,5 @@
 # Mocking (stubs and spies)
 
-## Mocking with Ponicode
-
 You can use Ponicode to mock return values of callables by following these steps:
 
 1 - Open the Unit Test interface for the function or method you want to test by right-clicking anywhere in the function's body and selecting `Ponicode: Unit Test`, or by simply using the `"ctrl+T"` shortcut.
