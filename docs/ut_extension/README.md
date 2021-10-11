@@ -1,41 +1,15 @@
 ## The Ponicode Unit Test extension
 
-- [Get Started](ut_extension/get_started/)
-    - [Installation](ut_extension/get_started/installation.md)
-    - [First Steps](ut_extension/get_started/first_steps/)
-      <!-- - [Setup your project] -->
-      - [Start or Stop Ponicode](ut_extension/get_started/first_steps/startStopPonicode.md)
-      - [Open the Ponicode interface](ut_extension/get_started/first_steps/openInterface.md)
-      - [Generate your first Unit Test](ut_extension/get_started/first_steps/generateFirstUt.md)
-      <!-- - [Create a test manually] -->
-  - [Deep Dive](ut_extension/deep_dive/)
-    <!-- - [Functions Supported] -->
-    - [The Ponicode Interface](ut_extension/deep_dive/ponicode_interface)
-      <!-- - [Intro] -->
-      - [The Feedback button](ut_extension/deep_dive/ponicode_interface/feedbackButton.md)
-      - [Suggestions](ut_extension/deep_dive/ponicode_interface/suggestions.md)
-      - [Unit Tests](ut_extension/deep_dive/ponicode_interface/unitTests.md)
-      <!-- - [Adding or removing columns] -->
-      - [The Play button](ut_extension/deep_dive/ponicode_interface/playButton.md)
-      - [Watch mode](ut_extension/deep_dive/ponicode_interface/watchMode.md)
-      <!-- - [The bold symbol] -->
-      <!-- - [The coverage indication] -->
-      <!-- - [Modify the test description] -->
-    - [What can be entered in a cell](ut_extension/deep_dive/cell.md)
-    - [Testing class methods](ut_extension/deep_dive/classMethods.md)
-    - [Mocking](ut_extension/deep_dive/mocking.md)
-    - [Running your tests](ut_extension/deep_dive/runningTests.md)
-    <!-- - [How suggestions work] -->
-    <!-- - [Assertions and matchers] -->
-    - [Currying](ut_extension/deep_dive/currying.md)
-    - [Modifying the test file](ut_extension/deep_dive/modifyingTestFile.md)
-    - [Supported import syntax](ut_extension/deep_dive/importSyntax.md)
-    <!-- - [Coverage alculation] -->
-    - [Configuration](ut_extension/deep_dive/configuration/)
-      - [Runner](ut_extension/deep_dive/configuration/runner.md)
-      - [Test Location](ut_extension/deep_dive/configuration/testLocation.md)
-  - [Supported Technologies](ut_extension/supported_technologies/)
-    - [IDEs](ut_extension/supported_technologies/IDEs.md)
-    <!-- - [Languages] -->
-    <!-- - [Test Frameworks] -->
-    <!-- - [Environments] -->
+Ponicode Unit Test is an IDE extension which allows to egnerate Unit Tests for your Javascript, Typescript and Python code in a matter of seconds. 
+
+Whenever Ponicode identifies a function in your code which it is able to test, it displays a little Pony icon to its left. On each of these functions, you can decide to apply **Ponicode Unit Test** or **Ponicode Flash Test**. 
+
+[**Ponicode Unit Test**](ut_extension/gui_test/) opens the **Ponicode interface**, a GUI built specifically to simplify the display, creation and manipulation of unit tests. The Ponicode interface allows a high level of customisation - enabling you to choose and edit your inputs, mocks and assertions.
+
+[**Ponicode Flash Test**](ut_extension/flash_test/) automatically generates a test suite for your function, without passing through a GUI. These tests are bootstrapped directly in the file, and can be committed as they are or can be edited by you manually at a later time.
+
+Both features are powered by the **Ponicode's AI engine**, which suggests relevant input values for the function under test
+
+Make sure you also explore the [**Ponicode Side Panel**](ut_extension/left_panel/), a place where to find information on all the files and functions where Ponicode can help you test.
+
+Visit the section [**Supported Technologies**](ut_extension/supported_technologies/) to find out which IDEs Ponicode is available for, and which languages and test frameworks are coming next.

@@ -9,17 +9,17 @@ Expressions are currently only supported in JavaScript and TypeScript, not in Py
 
 -   strings: `Hello World !`
 -   numbers: 42
--   booleans :
+-   booleans:
     -   JS/TS: `true` / `false`
     -   Python: `True` / `False`
--   null/undefined :
+-   null/undefined:
     -   JS/TS: `undefined` or `null`
     -   Python: `None`
 -   arrays: `['one', 2, 'three', true]` (and tuple for Python)
 -   objects: `{ name: 'Homer', surname: 'Simpsons', profession: 'Engineer' }`
 -   [JS only] fat arrow functions that take no input parameter and have a direct return
 
-**_Note_** : circlualr objects are **not** supported.
+**_Note_**: circlualr objects are **not** supported.
 
 ### Expressions [JS/TS only]
 
@@ -32,7 +32,7 @@ Expressions can include:
 -   All global scope identifiers declared in the test file or source file, and their attributes and methods
 -   Nested expressions that include all the above
 
-For example, you can write this kind of value in a cell :
+For example, you can write this kind of value in a cell:
 
 ```javascript
 {

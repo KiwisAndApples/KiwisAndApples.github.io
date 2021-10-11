@@ -7,7 +7,7 @@ The test runner is configured via 2 means: throught VSCode or with config files.
 Open your VSCode settings `File > Preferences > Settings` or `CTRL + ,` (Windows and Linux) or `CMD + ,` (Macos). Then search for "Ponicode"
 
 <p align="center">
-    <img src="ut_extension/deep_dive/configuration/images/ponicode_settings.png"  width="700"/>
+    <img src="ut_extension/gui_test/configuration/images/ponicode_settings.png"  width="700"/>
 </p>
 
 ⚠️ Please make sure to select __workspace__ tab and not __user__ one.
@@ -15,7 +15,7 @@ Open your VSCode settings `File > Preferences > Settings` or `CTRL + ,` (Windows
 Inside you can configure how the test runner handles typescript files throught the vscode settings.
 
 <p align="center">
-    <img src="ut_extension/deep_dive/configuration/images/runner_1.png"  width="700"/>
+    <img src="ut_extension/gui_test/configuration/images/runner_1.png"  width="700"/>
 </p>
 
 There is 3 available values:

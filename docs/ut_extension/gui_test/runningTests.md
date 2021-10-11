@@ -8,15 +8,18 @@ The Ponicode interface has two options to run your tests: manual mode or watch m
 
 ### Manual mode
 
-You can run each test individually by clicking on the play button. If the test passed, you will see a green check right of your test row.
+You can run each test individually by clicking on the <i class="fas fa-play" style="color:green"></i>`Play` button. 
+
+If the test passed, you will see a green check right of your test row.
 ![](images/test_case_running_1.png)
 
-If the test fails, you will get a cross icon to indicate this. You can then make the test pass by clicking on the bolt icon to correct it.
+If the test fails, you will see a red cross (<i class="fas fa-times" style="color:red"></i>) icon. You can then make the test pass by clicking on the bolt icon (<i class="fas fa-bolt" style="color:orange"></i>) to correct it.
+
 ![](images/test_case_running_2.png)
 
 ### Watch mode
 
-Watch mode can automaticaly run your tests when needed. You can enable it with the toggle in to top right corner.
+Watch mode can automaticaly run your tests when needed. You can enable it using the toggle in to top right corner.
 ![](images/test_case_running_3.png)
 
 ## Troubleshooting

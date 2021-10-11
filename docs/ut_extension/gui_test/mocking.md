@@ -38,7 +38,7 @@ Jest imposes that in order to be mocked, functions must be exported.
 * We do not support mocking conditionally exported functions
 * We do not support mocking direct exports (for example: `module.exports = function ()`)
 
-### Examples :
+### Examples:
 
 ### ✅ Works
 
@@ -92,7 +92,7 @@ Ponicode can mock functions that are defined in node modules. Ponicode can also 
 * The tested function must be exported (this is a Ponicode-specific limitation).
 * We do not support mocking direct exports.
 
-### Examples :
+### Examples:
 
 ### ✅ Works
 

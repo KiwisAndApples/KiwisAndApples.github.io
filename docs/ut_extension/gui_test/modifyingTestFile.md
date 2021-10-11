@@ -7,7 +7,7 @@ In many cases you might want to modify the generated test file.
 
 The following changes to the test file allow you to continue using the Ponicode interface to add, modify and run your tests:
 
--   Add custom imports to add globals, custom variables, custom classes etc... and use them in your test cases, or directly in the extension in the cells : see [here](add link to what can be entered in the cell)
+-   Add custom imports to add globals, custom variables, custom classes etc... and use them in your test cases, or directly in the extension in the cells: see [here](add link to what can be entered in the cell)
 -   Modify the `beforeEach` section
 -   Add simple test cases that is Ponicode syntax friendly
 -   Modify custom validation function s

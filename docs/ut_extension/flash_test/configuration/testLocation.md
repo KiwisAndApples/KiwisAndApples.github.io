@@ -7,7 +7,7 @@ To change the settings, open your preferences (<kbd>cmd</kbd> on MacOS or <kbd>c
 Alternatively, you can open the settings directly from your Ponicode interface, by clicking on the <i class="fas fa-cog" style="color:blue"></i>`Test settings (gear icon)` on the top right corner.
 
 <p align="center">
-    <img src="ut_extension/deep_dive/configuration/images/test_location_1.png" alt="test_settings_icon" width="750"/>
+    <img src="ut_extension/gui_test/configuration/images/test_location_1.png" alt="test_settings_icon" width="750"/>
 </p>
 
 Two fields can be modified: `Test Location: Location Type` and `Test Location: Path`. Each of them can be configured by `User` or `Workspace`.
@@ -17,7 +17,7 @@ Two fields can be modified: `Test Location: Location Type` and `Test Location: P
 You have a choice to configure your settings by `User` or `Workspace`, please only use workspace when changing Ponicode related settings.
 
 <p align="center">
-    <img src="ut_extension/deep_dive/configuration/images/test_location_2.png" alt="test_settings_icon" width="750"/>
+    <img src="ut_extension/gui_test/configuration/images/test_location_2.png" alt="test_settings_icon" width="750"/>
 </p>
 
 ### Test Location: Location Type
@@ -29,7 +29,7 @@ This field can take one of the following three values:
 - Custom
 
 <p align="center">
-    <img src="ut_extension/deep_dive/configuration/images/test_location_3.png" alt="Test Location: Location Type section" width="650"/>
+    <img src="ut_extension/gui_test/configuration/images/test_location_3.png" alt="Test Location: Location Type section" width="650"/>
 </p>
 
 `Same path as source file` and `In folder __tests__ at workspace root` are the two options recommended by Ponicode, and there are associated with strict Test location paths. If you want to customise your path, just select `Custom` and adjust the path as you like.
@@ -44,7 +44,7 @@ The following keywords can be used to defined the path:
 - _"{ext}"_: refers to the extension of the file a test should be created for. It must be preceded by the character _"."_
 
 <p align="center">
-    <img src="ut_extension/deep_dive/configuration/images/test_location_4.png" alt="Test Location: Location Type section" width="650"/>
+    <img src="ut_extension/gui_test/configuration/images/test_location_4.png" alt="Test Location: Location Type section" width="650"/>
 </p>
 
 The following constraints apply to the combination that can be created using the above keywords.

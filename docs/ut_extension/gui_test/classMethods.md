@@ -22,7 +22,7 @@ export class Requestor {
         auth_token,
         version,
         ) {
-        this.headers = {authorization : `Bearer: ${auth_token}`, 'X-Version':version}
+        this.headers = {authorization: `Bearer: ${auth_token}`, 'X-Version':version}
     }
     async get_post_response(url, data ){
         try {

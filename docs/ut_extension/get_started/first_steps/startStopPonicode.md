@@ -8,7 +8,7 @@ This tab indicates you the extension status and will allow you to start or stop 
     <img src="ut_extension/get_started/first_steps/images/vscode_status_bar.png" alt="ponicode_status_tab" width="600"/>
 </p>
 
-## First time starting
+### First time starting
 
 After installing, the extension status is `Ponicode: Sign in` meaning you must sign in in order to enable Ponicode. 
 
@@ -20,7 +20,7 @@ Once you've signed in, the status `Ponicode: Ready` indicates that your extensio
     <img src="ut_extension/get_started/first_steps/images/sign_in_page.png" alt="ponicode_sign_in_page" width="600"/>
 </p>
 
-## Stopping the extension
+### Stopping the extension
 
 You can temporarely disable Ponicode by clicking on the status tab. The status will turn to `Ponicode: Disabled` until you enable it again.
 

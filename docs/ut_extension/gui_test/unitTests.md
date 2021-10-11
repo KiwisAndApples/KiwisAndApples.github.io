@@ -1,4 +1,4 @@
-# Unit Tests Section
+# The Unit Tests Section
 
 The Unit Tests section in the Ponicode interface is your way to directly interact with your test file. When you open the interface, Ponicode looks for your test file (more information about test file location [here](../configuration/testLocation.mdd)). In the file exists, this section will be populated with the test cases found in said file. If not, Ponicode creates the file for you as soon as you add your first test case.
 
