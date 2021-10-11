@@ -15,7 +15,7 @@
       <!-- - [The bold symbol] -->
       <!-- - [The coverage indication] -->
       <!-- - [Modify the test description] -->
-      - [What can be entered in a cell](ut_extension/gui_test/cell.md)
+      - [Interface cells](ut_extension/gui_test/cell.md)
       - [Testing class methods](ut_extension/gui_test/classMethods.md)
       - [Mocking](ut_extension/gui_test/mocking.md)
       - [Running your tests](ut_extension/gui_test/runningTests.md)
