@@ -6,22 +6,29 @@ You can use Ponicode to mock return values of callables by following these steps
 
 1 - Open the Unit Test interface for the function or method you want to test by right-clicking anywhere in the function's body and selecting `Ponicode: Unit Test`, or by simply using the `"ctrl+T"` shortcut.
 
-![](images/ponicode_unit_test.png)
+<p align="center">
+    <img src="ut_extension/gui_test/images/ponicode_unit_test.png" width="600"/>
+</p>
 
 2 - When the Ponicode interface opens up, go back to the body of the function in your editor and click right on the function or method you'd like to mock, and select `Ponicode: Mock`
 
-![](images/mocking_selection.png)
+<p align="center">
+    <img src="ut_extension/gui_test/images/mocking_selection.png" width="600"/>
+</p>
 
 3 - After performing step 2, notice that 2 new columns appear in the Ponicode Interface: one in the section `mocks`, and one in the section `assertions`. The former one is the stub, the second one is the spy assertion `calledWith`.
 
-![](images/mocking_column.png)
+<p align="center">
+    <img src="ut_extension/gui_test/images/mocking_column.png" width="600"/>
+</p>
 
 4 - Enter your desired value in the column `mock` to stub your function with this value. 
 
 Similarly, enter in the the column `calledWithh` an array with the values that the mocked function should have been called with. For instance, if the function should have been called with the values `car` and `6`, enter `["car", 6]`. If desired, you can leave this cell empty, or remove it through the assertion column selector (use the little gear icon on the righ of the title `assertions`) 
 
-![](images/mocking_value.png)
-
+<p align="center">
+    <img src="ut_extension/gui_test/images/mocking_value.png" width="600"/>
+</p>
 ## How to use Ponicode mocking with user-defined functions
 
 Ponicode can mock functions that are defined in the same projects.
@@ -40,7 +47,7 @@ Jest imposes that in order to be mocked, functions must be exported.
 
 ### Examples:
 
-#### ✅ Works
+**✅ Works**
 
 ```
 const db = require('./db')
@@ -50,7 +57,7 @@ function foo () {
 module.exports = { foo }
 ```
 
-#### ❌ Fails
+**❌ Fails**
 
 ```
 const { query } = require('./db')
@@ -60,7 +67,7 @@ function foo () {
 module.exports = { foo }
 ```
 
-#### ❌ Fails with Jest
+**❌ Fails with Jest**
 
 ```
 const query = require('./db').query
@@ -94,7 +101,7 @@ Ponicode can mock functions that are defined in node modules. Ponicode can also 
 
 ### Examples:
 
-#### ✅ Works
+**✅ Works**
 
 ```
 const axios = require('axios')
@@ -104,7 +111,7 @@ function foo () {
 module.exports = { foo }
 ```
 
-#### ❌ Fails
+**❌ Fails**
 
 ```
 const axios = require('axios')
@@ -115,7 +122,7 @@ function foo () {
 
 _foo_ is not exported. Ponicode-specific limitation.
 
-#### ❌ Fails
+**❌ Fails**
 
 ```
 const { get } = require('axios')
@@ -127,7 +134,7 @@ module.exports = { foo }
 
 The reference to _axios.get_ was copied before the mock was set up.
 
-#### ❌ Fails
+**❌ Fails**
 
 ```
 const axios = require('axios')
@@ -139,7 +146,7 @@ module.exports = { foo }
 
 We cannot mock _axios_ itself. This is a Ponicode-specific limitation.
 
-#### ❌ Fails
+**❌ Fails**
 
 ```
 const pkg = require('package')

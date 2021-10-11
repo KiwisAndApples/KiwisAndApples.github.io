@@ -1,6 +1,6 @@
 # Running your test
 
-There are 2 ways of running your tests: in the Ponicode interface, or in your terminal with jest.
+There are 2 ways of running your tests: in the Ponicode interface, or in your terminal using Jest directly.
 
 ## In the Ponicode interface
 
@@ -24,16 +24,16 @@ Watch mode can automaticaly run your tests when needed. You can enable it using 
 
 ## Troubleshooting
 
-### Why am I getting "Failed to import some files" ?
+### "Failed to import some files"
 
 ![](images/test_case_running_4.png)
 
 This probably means that you have a typo in your imports or that the module you are importing is not installed.
 
-### Why am I getting "Failed to evaluate beforeEach" ?
+### "Failed to evaluate beforeEach"
 
 <p >
-    <img src="images/before_each_error.png" alt="ponicode_decorator" width="500"/>
+    <img src="ut_extension/gui_test/images/before_each_error.png" alt="before_each_error" width="500"/>
 </p>
 
 This usually means that there is a syntax error in the before each.
@@ -60,5 +60,5 @@ You can run all your tests with `npm run test` or `yarn run test`
 
 You can run tests files individually with `jest FILE_NAME.test.js`
 
-For advanced use of jest, refer to the [official docs](https://jestjs.io/docs/getting-started)
+For advanced use of Jest, refer to the [official docs](https://jestjs.io/docs/getting-started)
 
