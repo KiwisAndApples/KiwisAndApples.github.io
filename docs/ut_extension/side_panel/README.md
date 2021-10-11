@@ -1,3 +1,3 @@
-SIDE PANEL
+# The Ponicode side panel
 
 ajsdkjahkjhdakjhdkajsh
