@@ -38,3 +38,8 @@ In order to obtain your **Ponicode Token**, you need to follow these steps:
 
 6. The `GENERATE DOCSTRING` button should go green again! Enjoy!
 
+<div align="right">
+    <a href="#/dogstring/use-ponicode-dogstring-action.md" >
+        > Ponicode Dogstring Github Action
+    </a>
+</div>

@@ -82,4 +82,3 @@ In the second box you choose the parameters of the action.
 Once the docstrings are written, we use the create pull request action to see the results in the branch of your choice. If you want more details go to [https://github.com/peter-evans/create-pull-request](https://github.com/peter-evans/create-pull-request)
 
 You can see the Ponicode Dogstring action and different use cases here: [https://github.com/ponicode/dogstring-action](https://github.com/ponicode/dogstring-action)
-
