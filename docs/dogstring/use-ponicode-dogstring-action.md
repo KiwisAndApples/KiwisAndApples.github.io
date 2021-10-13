@@ -1,6 +1,6 @@
 # Ponicode DogString Action
 
-## Add your Ponicode Token to your Github secrets
+#### Add your Ponicode Token to your Github secrets
 
 1. Go to [https://app.ponicode.com/actions](https://app.ponicode.com/actions)
 
@@ -46,7 +46,7 @@
 10. Click on `Add Secret`
 Your Ponicode Token is now added to your repository's secrets!
 
-## Add the YAML file to your repository
+#### Add the YAML file to your repository
 You will need to create a yaml file, which will trigger the action, at the following location: `.github/worflows/ponicode_action.yml`
 One way of doing it is directly on **GitHub**.
 
