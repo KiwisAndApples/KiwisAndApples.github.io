@@ -6,7 +6,7 @@ Imports can be written in various different ways.
 
 Here is an overview of Ponicode's supported import syntaxes in the test file.
 ## Python
-### Supported
+#### Supported
 
 Ponicode supports the two most common syntaxes:
 
@@ -19,7 +19,7 @@ The imported module can be:
 * a third party module
 * a local application module
 
-### Not supported yet
+#### Not supported yet
 
 Ponicode **doesn't** yet support the following syntax:
 * globs
@@ -37,7 +37,7 @@ __import__(module)
 
 ## Javascript / Typescript
 
-### Supported
+#### Supported
 
 Ponicode handles the following import systems:
 * basic
@@ -60,7 +60,7 @@ const cp = require("child_process")
 You can use `jest.config` file to specifies how to import files. More information, on [Jest documentation](https://jestjs.io/docs/configuration)
 
 
-### Not supported yet
+#### Not supported yet
 
 Ponicode **doesn't** yet supported the following syntax:
 * es6 syntax
