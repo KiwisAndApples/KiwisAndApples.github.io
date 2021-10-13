@@ -5,7 +5,7 @@ Each row in the Ponicode interface corresponds to a test case. Each cell corresp
 
 Input cells can be populated with simple values or expressions.
 Expressions are currently only supported in JavaScript and TypeScript, not in Python.
-### Simple values
+#### Simple values
 
 -   strings: `Hello World !`
 -   numbers: 42
@@ -21,7 +21,7 @@ Expressions are currently only supported in JavaScript and TypeScript, not in Py
 
 **_Note_**: circlualr objects are **not** supported.
 
-### Expressions [JS/TS only]
+#### Expressions [JS/TS only]
 
 In addition to these simple values, you can enter expressions.
 Expressions can include:
