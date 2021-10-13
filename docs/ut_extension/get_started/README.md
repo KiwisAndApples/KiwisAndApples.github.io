@@ -1,4 +1,4 @@
-# Get Started with the Ponicode Unit Test extension
+# Get Started 
 
 In this section you will find all the basic information you need to get started.
 
