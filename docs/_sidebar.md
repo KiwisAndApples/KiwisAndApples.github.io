@@ -1,11 +1,11 @@
 <!-- docs/_sidebar.md -->
 
-- [<i class="fas fa-chevron-down" style="color:grey"></i> Ponicode Unit Test Extension](ut_extension/)
-  - [<i class="fas fa-chevron-down" style="color:grey"></i> Get Started](ut_extension/get_started/)
+- [Ponicode Unit Test Extension](ut_extension/)
+  - [Get Started](ut_extension/get_started/)
     - [Installation](ut_extension/get_started/installation.md)
     - [Start or Stop Ponicode](ut_extension/get_started/startStopPonicode.md)
       <!-- - [Create a test manually] -->
-  - [<i class="fas fa-chevron-down" style="color:grey"></i> Ponicode Unit Test (GUI)](ut_extension/unit_test/)
+  - [Ponicode Unit Test (GUI)](ut_extension/unit_test/)
       - [Opening the Ponicode Interface](ut_extension/gui_test/open_gui.md)
       - [Your first Unit Test](ut_extension/gui_test/firstUtGUI.md)
       <!-- - [Intro] -->
@@ -26,18 +26,18 @@
       - [Supported import syntax](ut_extension/gui_test/importSyntax.md)
       - [Sending us feedback](ut_extension/gui_test/feedback.md)
       <!-- - [Coverage calculation] -->
-      - [<i class="fas fa-chevron-down" style="color:grey"></i> Configuration](ut_extension/gui_test/configuration/)
+      - [Configuration](ut_extension/gui_test/configuration/)
         - [Runner](ut_extension/gui_test/configuration/runner.md)
         - [Test Location](ut_extension/gui_test/configuration/testLocation.md)
-  - [<i class="fas fa-chevron-down" style="color:grey"></i> Ponicode Flash Test](ut_extension/flash_test/)
-  - [<i class="fas fa-chevron-down" style="color:grey"></i> The Side Panel](ut_extension/side_panel/)
-  - [<i class="fas fa-chevron-down" style="color:grey"></i> Supported Technologies](ut_extension/supported_technologies/)
+  - [Ponicode Flash Test](ut_extension/flash_test/)
+  - [The Side Panel](ut_extension/side_panel/)
+  - [Supported Technologies](ut_extension/supported_technologies/)
     <!-- - [Languages] -->
     <!-- - [Test Frameworks] -->
     <!-- - [Environments] -->
-- [<i class="fas fa-chevron-down" style="color:grey"></i> Ponicode CLI](cli/)
+- [Ponicode CLI](cli/)
   - [Installation](cli/installation.md)
   - [Using Ponicode CLI](cli/how-to.md)
-- [<i class="fas fa-chevron-down" style="color:grey"></i> Ponicode DogString](dogstring/)
+- [Ponicode DogString](dogstring/)
   - [Playground](dogstring/try-ponicode-dogstring.md)
   - [Github Action](dogstring/use-ponicode-dogstring-action.md)
