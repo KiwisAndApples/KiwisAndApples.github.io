@@ -19,10 +19,8 @@ You can also open the interface by selecting a function and typing `⌘ + T` or 
 
 Finally you can right click on the function you want to test, and select `Ponicode: Unit test` to open the interface.
 
-![](./images/ponicode_unit_test.png)
-
 <p align="center">
-    <img src="ut_extension/gui_test/images/images/ponicode_unit_test.png" alt="right-click" width="400"/>
+    <img src="ut_extension/gui_test/images/ponicode_unit_test.png" alt="right-click" width="700"/>
 </p>
 
 <div align="right">
