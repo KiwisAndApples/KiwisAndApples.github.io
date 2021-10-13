@@ -12,7 +12,7 @@ function sum(a) {
 }
 ```
 
-## Testing curried functions with Ponicode
+### Testing curried functions with Ponicode
 
 Curried input parameters do not appear by default when opening the Ponicode interface. 
 For instance, when opening the Ponicode GUI on the function `sum`, a single input parameter column will be present, corresponding to the first parameter `a`.
@@ -46,7 +46,7 @@ You can add more than one curried parameters, but all of them will be considered
 sum(2)(8, 13)
 ```
 
-## AI Suggestions
+### AI Suggestions
 
 For the moment, Ponicode only suggest meaningful input values for the arguments of the "parent" function. Value suggestions for the curried arguments are always `undefined`, but you can manually modify them to fit your needs.
 
@@ -54,7 +54,7 @@ For the moment, Ponicode only suggest meaningful input values for the arguments 
     <img src="ut_extension/gui_test/images/curry_suggestions.png" alt="input-column-selector" width="650"/>
 </p>
 
-## Limitations
+### Limitations
 
 Today, Ponicode only supports one level of arument currying.
 
