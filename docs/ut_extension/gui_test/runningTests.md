@@ -4,7 +4,7 @@ You can always use your test runner of choice (Jest, Pytest, etc) to run your te
 
 There are two modes for running your tests: manual mode or watch mode.
 
-#### Manual mode
+**Manual mode**
 
 You can run each test individually by clicking on the <i class="fas fa-play" style="color:green"></i>`Play` button. 
 
@@ -15,20 +15,20 @@ If the test fails, you will see a red cross (<i class="fas fa-times" style="colo
 
 ![](images/test_case_running_2.png)
 
-#### Watch mode
+**Watch mode**
 
 Watch mode can automaticaly run your tests when needed. You can enable it using the toggle in to top right corner.
 ![](images/test_case_running_3.png)
 
-### Troubleshooting
+#### Troubleshooting
 
-#### "Failed to import some files"
+**"Failed to import some files"**
 
 ![](images/test_case_running_4.png)
 
 This probably means that you have a typo in your imports or that the module you are importing is not installed.
 
-#### "Failed to evaluate beforeEach"
+**"Failed to evaluate beforeEach"
 
 <p >
     <img src="ut_extension/gui_test/images/before_each_error.png" alt="before_each_error" width="500"/>
@@ -37,7 +37,7 @@ This probably means that you have a typo in your imports or that the module you 
 This usually means that there is a syntax error in the before each.
 Make sure that all your identifier are imported in the test file and that your classes are instatiated correctly.
 
-### Running your test in the terminal (JS)
+#### Running your test in the terminal (JS)
 
 Ponicode write your test in jest format. You can run the tests in your terminal with jest.
 Jest is installed with this command:
