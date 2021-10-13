@@ -15,7 +15,7 @@ The following changes to the test file allow you to continue using the Ponicode 
 -   Modify test description
 -   Delete a test case
 
-**Changing to Manual **
+**Changing to Manual**
 
 If you desire to make changes beyond the areas listed above, you can still do so. However, you will notice that your test suite will disappear from the Ponicode Interface.
 

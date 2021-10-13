@@ -26,7 +26,7 @@
     - [Supported import syntax](ut_extension/gui_test/importSyntax.md)
     - [Sending us feedback](ut_extension/gui_test/feedback.md)
     <!-- - [Coverage calculation] -->
-    - [Settings](ut_extension/gui_test/configuration/runner.md)
+    - [Settings](ut_extension/gui_test/configuration/README.md)
       - [Runner](ut_extension/gui_test/configuration/runner.md)
       - [Test Location](ut_extension/gui_test/configuration/testLocation.md)
   - [Ponicode Flash Test](ut_extension/flash_test/)
