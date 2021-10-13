@@ -187,3 +187,9 @@ Ponicode can mock global variables that are defined in the same file as the test
 >
 > We recommend to always **export** functions in your project that use mocks or will be mocked, in order to avoid special edge cases proper to JavaScript & TypeScript.
 >
+
+<div align="right">
+    <a href="#/ut_extension/gui_test/runningTests.md" >
+        > Running your tests
+    </a>
+</div>

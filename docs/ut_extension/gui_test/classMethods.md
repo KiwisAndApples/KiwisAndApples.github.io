@@ -85,3 +85,10 @@ describe("inst.get_post_response", () => {
     })
 })
 ```
+
+
+<div align="right">
+    <a href="#/ut_extension/gui_test/mocking.md" >
+        > Mocking
+    </a>
+</div>

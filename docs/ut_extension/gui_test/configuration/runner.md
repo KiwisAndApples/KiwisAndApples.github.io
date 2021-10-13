@@ -1,4 +1,4 @@
-# Test runner configuration
+# Test Runner Settings
 
 The test runner is configured via 2 means: throught VSCode or with config files.
 
@@ -39,3 +39,9 @@ The test runner will use the [moduleNameMapper](https://jestjs.io/docs/configura
 The test runner will also search for babel.config.json in a similar fashion. If the babel config is found, the test runner will use babel with the provided configuration to run load your files.
 
 You can find more information about babel [here](https://babeljs.io/docs/en/config-files)
+
+<div align="right">
+    <a href="#/ut_extension/gui_test/configuration/testLocation.md" >
+        > Test Location 
+    </a>
+</div>

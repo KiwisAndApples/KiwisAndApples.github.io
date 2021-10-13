@@ -23,7 +23,7 @@ If you are struggling with the previous options you can use the VS Code command 
 > No matter the language you wish to test our extension on, node **version 14 (recommended) or 12** is required. [Click here to download node](https://nodejs.org/en/)
 >
 
-## Login and activation
+## Login and activate
 
 Once the Ponicode extension has been downloaded, you will be prompted to Sign In into Ponicode:
 
@@ -48,3 +48,8 @@ You can verify that Ponicode's activation was successful by making sure you see 
 [wizard]: https://app.ponicode.com
 [extension]: https://marketplace.visualstudio.com/items?itemName=ponicode.ponicode
 
+<div align="right">
+    <a href="#/ut_extension/get_started/startStopPonicode.md" >
+        > Start or Stop Ponicode
+    </a>
+</div>

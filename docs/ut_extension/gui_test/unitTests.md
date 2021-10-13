@@ -32,3 +32,9 @@ To remove a test case, simply click on the <i class="fas fa-trash-alt" style="co
 ## Running test cases
 
 You might want to run your test cases to see wether they pass or not. Read the dedicated docs page [running tests](./runningTests.md) for more information.
+
+<div align="right">
+    <a href="#/ut_extension/gui_test/suggestions.md" >
+        > Suggestions
+    </a>
+</div>

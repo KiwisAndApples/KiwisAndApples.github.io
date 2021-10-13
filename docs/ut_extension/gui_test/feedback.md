@@ -11,3 +11,9 @@ Once the feedback window is open, simply write your message and click on Send.
 <p align="center">
     <img src="ut_extension/gui_test/images/feedback_2.png" alt="feedback_window" width="550"/>
 </p>
+
+<div align="right">
+    <a href="#/ut_extension/gui_test/configuration.md" >
+        > Settings
+    </a>
+</div>

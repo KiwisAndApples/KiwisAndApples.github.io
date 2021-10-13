@@ -24,3 +24,9 @@ When you are in Manual Mode, you can still use the Ponicode Interface to generat
 
 A red bar at the top of the Ponicode interface indicates that Ponicode is encountering a problem while parsing your test file. 
 This could be due to network errors or to a real parsing issue. If you encounter such a situation do not hesitate to contact the Ponicode team at ping@ponicode.com.
+
+<div align="right">
+    <a href="#/ut_extension/gui_test/importSyntax.md" >
+        > Supported import syntax
+    </a>
+</div>

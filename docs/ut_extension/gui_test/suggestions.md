@@ -36,3 +36,9 @@ To remove a test case, simply click on the <i class="fas fa-trash-alt" style="co
     <img src="ut_extension/gui_test/images/suggestions_3.png" alt="removing test suggestions" width="600"/>
 </p>
 
+
+<div align="right">
+    <a href="#/ut_extension/gui_test/cell.md" >
+        > Interface Cells
+    </a>
+</div>

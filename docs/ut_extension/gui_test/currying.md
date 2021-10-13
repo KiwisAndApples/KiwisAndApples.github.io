@@ -67,4 +67,8 @@ But it does *not* allow testing a function that is called in the following way:
 sum(100)(15)(28)
 ```
 
-
+<div align="right">
+    <a href="#/ut_extension/gui_test/modifyingTestFile.md" >
+        > Modifying the test file
+    </a>
+</div>

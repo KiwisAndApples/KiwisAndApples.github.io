@@ -62,3 +62,9 @@ You can run tests files individually with `jest FILE_NAME.test.js`
 
 For advanced use of Jest, refer to the [official docs](https://jestjs.io/docs/getting-started)
 
+
+<div align="right">
+    <a href="#/ut_extension/gui_test/currying.md" >
+        > Currying
+    </a>
+</div>

@@ -67,3 +67,9 @@ Ponicode **doesn't** yet supported the following syntax:
 ```javascript
 import { cp } from  "child_process"
 ``` 
+
+<div align="right">
+    <a href="#/ut_extension/gui_test/feedback.md" >
+        > Sending us feedback
+    </a>
+</div>

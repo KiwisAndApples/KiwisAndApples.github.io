@@ -5,7 +5,7 @@
     - [Installation](ut_extension/get_started/installation.md)
     - [Start or Stop Ponicode](ut_extension/get_started/startStopPonicode.md)
       <!-- - [Create a test manually] -->
-  - [Ponicode Unit Test (GUI)](ut_extension/)
+  - [Ponicode Unit Test (GUI)](ut_extension/gui_test)
     - [Opening the Ponicode Interface](ut_extension/gui_test/open_gui.md)
     - [Your first Unit Test](ut_extension/gui_test/firstUtGUI.md)
     <!-- - [Intro] -->
@@ -26,7 +26,7 @@
     - [Supported import syntax](ut_extension/gui_test/importSyntax.md)
     - [Sending us feedback](ut_extension/gui_test/feedback.md)
     <!-- - [Coverage calculation] -->
-    - [Configuration](ut_extension/gui_test/configuration/)
+    - [Settings](ut_extension/gui_test/configuration/runner.md)
       - [Runner](ut_extension/gui_test/configuration/runner.md)
       - [Test Location](ut_extension/gui_test/configuration/testLocation.md)
   - [Ponicode Flash Test](ut_extension/flash_test/)
