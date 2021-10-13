@@ -5,7 +5,7 @@
     - [Installation](ut_extension/get_started/installation.md)
     - [Start or Stop Ponicode](ut_extension/get_started/startStopPonicode.md)
       <!-- - [Create a test manually] -->
-  - [Ponicode Unit Test (GUI)](ut_extension/gui_test)
+  - [Ponicode Unit Test (GUI)](ut_extension/gui_test/)
     - [Opening the Ponicode Interface](ut_extension/gui_test/open_gui.md)
     - [Your first Unit Test](ut_extension/gui_test/firstUtGUI.md)
     <!-- - [Intro] -->

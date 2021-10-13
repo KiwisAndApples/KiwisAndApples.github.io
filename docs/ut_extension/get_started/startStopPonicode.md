@@ -17,7 +17,7 @@ The sign-in page will appear automatically. You can also manually open it by cli
 Once you've signed in, the status `Ponicode: Ready` indicates that your extension is ready to use.
 
 <p align="center">
-    <img src="ut_extension/get_started/images/sign_in_page.png" alt="ponicode_sign_in_page" width="600"/>
+    <img src="ut_extension/get_started/images/sign_in_page.png" alt="ponicode_sign_in_page" width="400"/>
 </p>
 
 ### Stopping the extension
@@ -25,5 +25,5 @@ Once you've signed in, the status `Ponicode: Ready` indicates that your extensio
 You can temporarely disable Ponicode by clicking on the status tab. The status will turn to `Ponicode: Disabled` until you enable it again.
 
 <p align="center">
-    <img src="ut_extension/get_started/images/stop_ponicode.png" alt="ponicode_sign_in_page" width="600"/>
+    <img src="ut_extension/get_started/images/stop_ponicode.png" alt="ponicode_sign_in_page" width="400"/>
 </p>
