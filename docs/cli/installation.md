@@ -23,3 +23,9 @@ You can logout using
 ```
 ponicode logout
 ```
+
+<div align="right">
+    <a href="#/cli/how-to.md" >
+        > Use Ponicode CLI
+    </a>
+</div>
