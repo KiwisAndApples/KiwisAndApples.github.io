@@ -12,7 +12,7 @@ Alternatively, you can open the settings directly from your Ponicode interface, 
 
 Two fields can be modified: `Test Location: Location Type` and `Test Location: Path`. Each of them can be configured by `User` or `Workspace`.
 
-## User or workspace?
+#### User or workspace?
 
 You have a choice to configure your settings by `User` or `Workspace`, please only use workspace when changing Ponicode related settings.
 
@@ -20,7 +20,7 @@ You have a choice to configure your settings by `User` or `Workspace`, please on
     <img src="ut_extension/gui_test/configuration/images/test_location_2.png" alt="test_settings_icon" width="750"/>
 </p>
 
-### Test Location: Location Type
+##### Test Location: Location Type
 
 This field can take one of the following three values:
 
@@ -34,7 +34,7 @@ This field can take one of the following three values:
 
 `Same path as source file` and `In folder __tests__ at workspace root` are the two options recommended by Ponicode, and there are associated with strict Test location paths. If you want to customise your path, just select `Custom` and adjust the path as you like.
 
-### Test Location: Path
+##### Test Location: Path
 
 The following keywords can be used to defined the path:
 
