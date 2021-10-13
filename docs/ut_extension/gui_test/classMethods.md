@@ -64,7 +64,9 @@ export class Requestor {
 
 A `Requestor` class object is available. Right-click on the `get_post_response` method and select *"Ponicode: Unit Test"*. The Ponicode Webview on the right contains a new section named **Before each**
 
-![Before Each](images/methods_1.png)
+<p align="center">
+    <img src="ut_extension/gui_test/images/methods_1.png" alt="before_each" width="700"/>
+</p>
 
 This section allows you to instantiate a context before testing your methods. You can for example instantiate you class instance.
 
