@@ -6,14 +6,13 @@ Ponicode Unit Text Extension now supports method testing.
 > 
 > Method support is available for JavaScript & TypeScript
 
-### Steps
+#### Steps
 1. Identify a method you want to test
 2. Ensure that there is a Pony icon on its left
 3. Click on the decorator *"Ponicode Unit Test"*
 4. Select the relevant test cases and modify the initialization in the **Before each** section
 
-## Demo Project Samples
-On the demo project in the `[javascript|typescript]` folder open the `d_methods.[js|ts]` file.
+#### Example
 
 ```javascript
 export class Requestor {
