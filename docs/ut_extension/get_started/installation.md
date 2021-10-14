@@ -1,4 +1,4 @@
-## Install the extension
+#### Install the extension
 
 You can install the Ponicode VS Code extension directly from the [**VS Code marketplace**][extension].
 
@@ -21,7 +21,7 @@ If you are struggling with the previous options you can use the VS Code command 
 > No matter the language you wish to test our extension on, node **version 14 (recommended) or 12** is required. [Click here to download node](https://nodejs.org/en/)
 >
 
-## Login and activate
+#### Login and activate
 
 Once the Ponicode extension has been downloaded, you will be prompted to Sign In into Ponicode:
 
