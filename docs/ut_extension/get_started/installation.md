@@ -1,5 +1,3 @@
-# Installation
-
 ## Install the extension
 
 You can install the Ponicode VS Code extension directly from the [**VS Code marketplace**][extension].
