@@ -1,5 +1,3 @@
-# Start or stop Ponicode
-
 Once you installed the extension, you will see Ponicode tab in VSCode status bar.
 
 This tab indicates you the extension status and will allow you to start or stop it.
