@@ -1,7 +1,7 @@
 # Using Ponicode CLI
 
 > Warning:
-> Ponicode CLI is compatible with Typescript and Javascript.
+> Ponicode CLI is available for Typescript, Javascript and Python.
 
 #### Write a test file for a given source file
 

@@ -1,5 +1,12 @@
 # Ponicode DogString Action
 
+#### Why a Github Action?
+
+Ponicode's Dogstring Github Action allows to integrate AI-powered automatic docstring generation into your CI.
+
+Effectively, this means that you will never again produce undocumented code: the Ponicode Github action allows you to generate Dogstring either for your whole project in bulk, or only on the lates portion of code that you have modified (the *diff* of your commit). 
+
+The Github Action runs on your code and generates a PR to add a docstring to all functions which do not already have one. You are then free to review the PR, make the comments you need and merge it into your branch.
 #### Add your Ponicode Token to your Github secrets
 
 1. Go to [https://app.ponicode.com/actions](https://app.ponicode.com/actions)
