@@ -9,28 +9,40 @@ There are two modes for running your tests: manual mode or watch mode.
 You can run each test individually by clicking on the <i class="fas fa-play" style="color:green"></i>`Play` button. 
 
 If the test passed, you will see a green check right of your test row.
-![](images/test_case_running_1.png)
+
+<p align="center">
+    <img src="ut_extension/gui_test/images/test_case_running_1.png"  width="500"/>
+</p>
 
 If the test fails, you will see a red cross (<i class="fas fa-times" style="color:red"></i>) icon. You can then make the test pass by clicking on the bolt icon (<i class="fas fa-bolt" style="color:orange"></i>) to correct it.
 
-![](images/test_case_running_2.png)
+<p align="center">
+    <img src="ut_extension/gui_test/images/test_case_running_2.png"  width="500"/>
+</p>
+
 
 **Watch mode**
 
 Watch mode can automaticaly run your tests when needed. You can enable it using the toggle in to top right corner.
-![](images/test_case_running_3.png)
+
+<p align="center">
+    <img src="ut_extension/gui_test/images/test_case_running_3.png"  width="500"/>
+</p>
 
 #### Troubleshooting
 
 **"Failed to import some files"**
 
-![](images/test_case_running_4.png)
+<p align="center">
+    <img src="ut_extension/gui_test/images/test_case_running_4.png"  width="300"/>
+</p>
+
 
 This probably means that you have a typo in your imports or that the module you are importing is not installed.
 
 **"Failed to evaluate beforeEach"
 
-<p >
+<p align="center">
     <img src="ut_extension/gui_test/images/before_each_error.png" alt="before_each_error" width="500"/>
 </p>
 

@@ -1,6 +1,6 @@
 # The Unit Tests Section
 
-The Unit Tests section in the Ponicode interface is your way to directly interact with your test file. When you open the interface, Ponicode looks for your test file (more information about test file location [here](./configuration/testLocation.mdd)). In the file exists, this section will be populated with the test cases found in said file. If not, Ponicode creates the file for you as soon as you add your first test case.
+The Unit Tests section in the Ponicode interface is your way to directly interact with your test file. When you open the interface, Ponicode looks for your test file (more information about test file location [here](ut_extension/gui_test/configuration/testLocation.mdd)). In the file exists, this section will be populated with the test cases found in said file. If not, Ponicode creates the file for you as soon as you add your first test case.
 
 When you add or remove a test case in this section, your test file is updated in real time and vice versa.
 
@@ -31,7 +31,7 @@ To remove a test case, simply click on the <i class="fas fa-trash-alt" style="co
 
 ## Running test cases
 
-You might want to run your test cases to see wether they pass or not. Read the dedicated docs page [running tests](./runningTests.md) for more information.
+You might want to run your test cases to see wether they pass or not. Read the dedicated docs page [running tests](ut_extension/gui_test//runningTests.md) for more information.
 
 <div align="right">
     <a href="#/ut_extension/gui_test/suggestions.md" >
