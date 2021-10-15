@@ -13,7 +13,7 @@ Once the feedback window is open, simply write your message and click on Send.
 </p>
 
 <div align="right">
-    <a href="#/ut_extension/gui_test/configuration.md" >
+    <a href="#/ut_extension/gui_test/configuration/README.md" >
         > Settings
     </a>
 </div>
