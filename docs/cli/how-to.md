@@ -6,6 +6,7 @@
 #### Write a test file for a given source file
 
 To use Ponicode CLI on one specific source file, you can simply use:
+
 ```
 ponicode test /path/to/your/source_file
 ```
@@ -13,7 +14,8 @@ ponicode test /path/to/your/source_file
 #### Write a test file for a specific function in a source file (`--func`)
 
 If you want to add tests for a specific function, Ponicode CLI does it for you.
-To do so, simply use: 
+To do so, simply run:
+
 ```
 ponicode test --func mySuperFunction /path/to/source_file
 ```
@@ -27,15 +29,17 @@ To do so, you have multiple possibilities.
 **Given files**
 
 If you want to add test files for specific source files, you can specify which one only by adding them as arguments to the command, such as:
+
 ```
 ponicode test src/utils.ts src/superFile.ts
 ```
 
-**Glob pattern (`**/*`)**
+**Glob pattern (`**/\*`)\*\*
 
-Maybe you're too lazy to write _every_ single files in the command line, and want to use a glob pattern to fetch them all? 
+Maybe you're too lazy to write _every_ single files in the command line, and want to use a glob pattern to fetch them all?
 
 With Ponicode CLI, you can do it:
+
 ```
 ponicode test src/**/*.ts
 ```
@@ -45,23 +49,44 @@ ponicode test src/**/*.ts
 You may want data about your code and the tests generated?
 
 You can generate it along the generated tests, and have it in a json file.
+
 ```
 ponicode test src/utils.ts --json
 ```
 
 By default, the JSON will be written in the current directory you're executing the command.
 If you want to have it in a different location, simply specify it next to the `--json` such as:
+
 ```
 poniode test src/utils.ts --json report/poni-report.json
 ```
 
 > Note: You have to add the `--json` option to **_the end_** of the command.
 
+#### Dashboard (`--dashboard / -d`)
+
+If you have subscribed to the [Premium plan](https://app.ponicode.com/account/billing/plan), you can have access to the advanced TurboCov dashboard for your TypeScript project. To do so, add the option `--dashboard` (or `-d`):
+
+```
+ponicode test --dashboard ./src
+```
+
+As well as generating your test files, this command will **run** them using Jest, and upload coverage information to the TurboCov Dashboard.
+
+You can find more information on the [dashboard page](platform/dashboard.md) of the Docs.
+
 #### Dry run (`--dry-run`)
 
-Maybe you want to test the capabilities of Ponicode CLI and doesn't want it to write test files for you? Fine!
-You can execute our tool with `--dry-run` to do so: 
+If you want to test the capabilities of Ponicode CLI, but don't want it to generate test files, you can run `ponicode` with the option `--dry-run` to do so:
+
 ```
-ponicode test --dry-run src/api/**.js 
+ponicode test --dry-run src/api/**.js
 ```
 
+### (Re)run test
+
+If your tests failed to run, or your coverage failed to be updated to your TurboCov dashboard, you can re-launch the coverage calculation again by using the following command at your project root.
+
+```
+ponicode cov run
+```

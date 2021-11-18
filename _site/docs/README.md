@@ -8,10 +8,10 @@
 
 An IDE extension which allows you to generate Unit Tests for your Javascript, Typescript and Python code in a matter of seconds, either through an intuitive GUI or thorgh a one-click command.
 
-3. [Ponicode CLI](cli/)
+2. [Ponicode CLI](cli/)
 
 An NPM package which allows to generate unit tests in bulk for a whole file, directory or project, directly from the command line.
 
-2. [Ponicode DogString](dogstring/)
+3. [Ponicode DogString](dogstring/)
 
 Ponicode developed technology that generates docstring documentation for your Python functions. It is available to try in a playground, or usable as a Github Action.
