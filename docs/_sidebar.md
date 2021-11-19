@@ -41,6 +41,6 @@
 - [Ponicode DogString](dogstring/)
   - [Playground](dogstring/try-ponicode-dogstring.md)
   - [Github Action](dogstring/use-ponicode-dogstring-action.md)
-- [Ponicode Platform](platform/)
-  - [TurboCov Dashboard](platform/dashboard)
+- [Ponicode TurboCov](turbocov/)
+  <!-- - [TurboCov Dashboard](turbocov/dashboard) -->
   <!-- - [Plans and princing](platform/plans) -->
