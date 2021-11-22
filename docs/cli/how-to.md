@@ -83,7 +83,20 @@ If you want to test the capabilities of Ponicode CLI, but don't want it to gener
 ponicode test --dry-run src/api/**.js
 ```
 
-### (Re)run test
+#### Use Rewire (`--rewire / -r`)
+
+By default, Ponicode does not generate unit tests for functions that are **not** exported. 
+If you would like Ponicode to use the dependency [`rewire`](https://www.npmjs.com/package/rewire) to unit test unexported functions, you can use the flag `-r` when launching `ponicode test`:
+
+```
+ponicode test --rewire src/myFolder/myFile.ts
+```
+
+When using this flag, please keep in mind that:
+- using `rewire` might require additional configuration on your side for Jest to be able to run your tests.
+- `Jest` excludes rewired tests from its coverage calculations 
+
+#### (Re)run test
 
 If your tests failed to run, or your coverage failed to be updated to your TurboCov dashboard, you can re-launch the coverage calculation again by using the following command at your project root.
 
