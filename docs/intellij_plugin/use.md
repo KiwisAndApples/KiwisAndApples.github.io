@@ -1,4 +1,6 @@
-There are three ways you can run Ponicode FlashTest on your function.
+**Ponicode Flash Test** allows you to generate non-regression tests in one click.
+
+There are three ways you can run **Ponicode Flash Test** on your function.
 
 #### Click on the unicorn!
 
