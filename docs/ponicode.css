@@ -532,7 +532,7 @@ body.sticky .sidebar-toggle {
 }
 
 .markdown-section p.tip em {
-    color: #3fc93f;
+    color: var(--link-color);
 }
 
 .markdown-section p.warn {
