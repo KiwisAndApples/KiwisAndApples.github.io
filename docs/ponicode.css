@@ -316,9 +316,9 @@ main.hidden {
     transition: all .3s
 }
 
-.anchor span {
+/* .anchor span {
     color: var(--section-color);
-}
+} */
 
 .anchor:hover {
     text-decoration: underline
