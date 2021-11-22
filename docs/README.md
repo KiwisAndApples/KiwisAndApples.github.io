@@ -16,6 +16,6 @@ An NPM package which allows to generate unit tests in bulk for a whole file, dir
 
 Ponicode developed technology that generates docstring documentation for your Python functions. It is available to try in a playground, or usable as a Github Action.
 
-4. [Ponicode Platform](platform/)
+4. [Ponicode TurboCov](turbocov/)
 
-The website that centralized all useful information on your usage of Ponicode.
+A solution to generate 80% code coverage on Typescript backend porject, and get access to a code quality dashboard.
