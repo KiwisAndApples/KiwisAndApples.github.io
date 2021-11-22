@@ -819,7 +819,7 @@ body {
 .markdown-section h1 ,
 .markdown-section h2 {
     font-weight: 900;
-    color: var(--text-color);
+    color: var(--text-color) !important;
     text-transform: uppercase;
 }
 
