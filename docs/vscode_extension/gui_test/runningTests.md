@@ -70,7 +70,7 @@ You can run all your tests with `npm run test` or `yarn run test`
 
 You can run tests files individually with `jest FILE_NAME.test.js`
 
-For advanced use of Jest, refer to the [official docs](https://jestjs.io/docs/getting-started)
+For advanced use of Jest, refer to the [official docs](https://jestjs.io/docs/getting-started).
 
 
 <div align="right">
