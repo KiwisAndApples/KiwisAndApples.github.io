@@ -7,5 +7,5 @@ Ponicode CLI allows to generate unit tests in bulk for a whole file, directory o
 - [Using Ponicode CLI](cli/how-to.md)
 
 <p align="center">
-    <img src="images/npm.png" alt="vscode" width="120"/>
+    <img src="images/npm.png" alt="cli" width="120"/>
 </p>
