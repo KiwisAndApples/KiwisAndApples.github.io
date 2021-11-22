@@ -2,10 +2,14 @@
 
 There are three ways you can run Ponicode FlashTest on your function.
 
-#### Click the unicorn !
+#### Click on the unicorn!
 
-You can simply click on the pony that appears left of your function and see ponicode generate your tests.
 
+Click on the pony that appears left of your function to generate a unit test for your function.
+
+<p align="center">
+    <img src="intellij_plugin/images/left-side-ponies.png" alt="left-side-ponies" width="200"/>
+</p>
 <p align="center">
     <img src="intellij_plugin/images/click-the-pony.png" alt="Click the pony" width="400"/>
 </p>
@@ -20,4 +24,4 @@ By right-clicking anywhere inside a supported function, you will see the option 
 
 #### No click, just keyboard
 
-There is also a keyboard shortcut that launches ponicode: `control alt A` then `C`.
+You can launch Ponicode using the keyboard shortcut  `ctrl`+`alt`+`A` then `C`.
