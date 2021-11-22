@@ -15,8 +15,8 @@
     --theme-color-default: #3fc93f;
     --link-color: #0f1245;
     --text-color: #0f1245;
-    --section-color: ##3fc93f;
-    --section-link-color: #17a2b8;
+    --section-color: #3fc93f;
+    --section-link-color: #0f1245;
     --code-color: #17a2b8;
 }
 
@@ -816,8 +816,16 @@ body {
     float: left
 }
 
-.markdown-section h1,
-.markdown-section h2,
+.markdown-section h1 ,
+.markdown-section h2 {
+    font-weight: 900;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.markdown-section h3 {
+    text-transform: uppercase;
+}
 .markdown-section h3,
 .markdown-section h4,
 .markdown-section strong {
