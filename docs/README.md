@@ -1,8 +1,8 @@
 # Ponicode Documentation
 
-**Welcome to Ponicode's Documentation.**
+Welcome to Ponicode's Documentation.
 
-**On this site you will be able to find the documentation for all Ponicode's products and tools.**
+On this site you will be able to find the documentation for all Ponicode's products and tools.
 
 1. [The Ponicode Unit Test Extension](ut_extension/)
 
