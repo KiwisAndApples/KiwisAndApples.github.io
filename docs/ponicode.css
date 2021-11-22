@@ -819,7 +819,7 @@ body {
 .markdown-section h3,
 .markdown-section h4,
 .markdown-section strong {
-    color: var(--section-color);
+    color: var(--section-color) !important;
     font-weight: 700
 }
 
