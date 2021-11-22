@@ -33,17 +33,29 @@ Ponicode will **not** save your code or your tests at any time when calling the 
 - Coverage
 - Name (and file path) of some untested functions
 - File path of tested functions -->
-<!--
+
+
 #### Access to your dashboard:
 
 On [your project's list](https://app.ponicode.com/turbo-cov/projects), you can select a project to see details about it.
 
+### Insights
+
+<p align="center">
+    <img src="../images/insights.png" alt="Ponicode insights" width="800"/>
+</p>
+
 #### Understand you KPIs
+
+### Dashboard
 
 <p align="center">
     <img src="../images/dashboard.png" alt="Ponicode Dashboard" width="800"/>
 </p>
 
+#### Understand you KPIs
+
+
 #### Export as PDF
 
-At any time you can export your dashboard as a PDF by clicking on the top right button on the dashboard tab. -->
+At any time you can export your dashboard as a PDF by clicking on the top right button on the dashboard tab. 
