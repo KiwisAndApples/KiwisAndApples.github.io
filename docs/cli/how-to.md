@@ -1,7 +1,8 @@
 # Using Ponicode CLI
 
-> Warning:
-> Ponicode CLI is available for Typescript, Javascript and Python.
+> **Warning**:
+> Ponicode CLI is available for Typescript, Javascript and Python. 
+> However, some of the options listed below are only available for TypeScript
 
 #### Write a test file for a given source file
 
@@ -63,17 +64,6 @@ poniode test src/utils.ts --json report/poni-report.json
 
 > Note: You have to add the `--json` option to **_the end_** of the command.
 
-#### Dashboard (`--dashboard / -d`)
-
-If you have subscribed to the [Premium plan](https://app.ponicode.com/account/billing/plan), you can have access to the advanced TurboCov dashboard for your TypeScript project. To do so, add the option `--dashboard` (or `-d`):
-
-```
-ponicode test --dashboard ./src
-```
-
-As well as generating your test files, this command will **run** them using Jest, and upload coverage information to the TurboCov Dashboard.
-
-You can find more information on the [dashboard page](platform/dashboard.md) of the Docs.
 
 #### Dry run (`--dry-run`)
 
@@ -89,14 +79,26 @@ By default, Ponicode does not generate unit tests for functions that are **not**
 If you would like Ponicode to use the dependency [`rewire`](https://www.npmjs.com/package/rewire) to unit test unexported functions, you can use the flag `-r` when launching `ponicode test`:
 
 ```
-ponicode test --rewire src/myFolder/myFile.ts
+ponicode test src/myFolder/myFile.ts --rewire
 ```
 
 When using this flag, please keep in mind that:
 - using `rewire` might require additional configuration on your side for Jest to be able to run your tests.
 - `Jest` excludes rewired tests from its coverage calculations 
 
-#### (Re)run test
+#### Dashboard (`--dashboard / -d`) [TS only]
+
+If you have subscribed to the [Premium plan](https://app.ponicode.com/account/billing/plan), you can have access to the advanced TurboCov dashboard for your TypeScript project. To do so, add the option `--dashboard` (or `-d`):
+
+```
+ponicode test --dashboard ./src
+```
+
+As well as generating your test files, this command will **run** them using Jest, and upload coverage information to the TurboCov Dashboard.
+
+You can find more information on the [dashboard page](platform/dashboard.md) of the Docs.
+
+#### (Re)run test [TS only]
 
 If your tests failed to run, or your coverage failed to be updated to your TurboCov dashboard, you can re-launch the coverage calculation again by using the following command at your project root.
 
