@@ -76,6 +76,10 @@ If you need to specify particular Jest configuration, edit your `jest.config.jso
 * **Critical functions tested**: Critical functions are the most important functions to test. Criticity is calculated based on how often your function is likely to be called in your application, as well as metrics of complexity and bug likelihood.
 * **Unit tests**: This is the total number of test cases that Ponicode TurboCov has been able to generate for you.
 
+**Ponicode Badge**
+
+On the top right corner of your screen, there is a Pony which can be bronze, silver or gold. This badge is based on a unique Ponicode score, which evaluates the overall code quality of your project.
+
 **Export as PDF**
 
 At any time you can export your dashboard as a PDF by clicking on the top right button on the dashboard tab. 
