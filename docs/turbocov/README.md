@@ -22,7 +22,7 @@ You will need the npm package [Ponicode CLI](cli/how-to.md) in order to link you
 
 You can link your project to TurboCov using the npm package [Ponicode CLI](cli/how-to.md)
 
-#### What data is recovered by Ponicode ?
+#### What data is recovered by Ponicode?
 
 Ponicode will **not** save your code or your tests at any time when calling the `ponicode test` or `ponicode run` commands. We only extract the metrics that will be used for the calculation of the dashboard indicators.
 
@@ -35,9 +35,11 @@ Ponicode will **not** save your code or your tests at any time when calling the 
 - File path of tested functions -->
 
 
-#### Access to your dashboard:
+#### Access to your dashboards and insights
 
 On [your project's list](https://app.ponicode.com/turbo-cov/projects), you can select a project to see details about it.
+
+If you don't see any projects listed on this page, 
 
 ### Insights
 
@@ -46,6 +48,10 @@ On [your project's list](https://app.ponicode.com/turbo-cov/projects), you can s
 </p>
 
 #### Understand you KPIs
+
+* **Margin**: The Margin section is targeted specifically at Freelance developers. It estimates the amount of time it would have taken to write the same amount of tests as Ponicode manually, as well as the billable amount for this amount of time - based on your Average Daily Rate.
+Figures are based on industry-standard statistics.
+* **Next Best Actions**: Not every and all functions can be unit tested by Ponicode today. However, Ponicode is able to indicate to you which ones are the most important functions that you should direct your attention to, among the untested ones. In this section you can find a list of untested critical functions, so that you can go and improve the maintainability of your project. 
 
 ### Dashboard
 
