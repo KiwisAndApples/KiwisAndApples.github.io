@@ -1,10 +1,6 @@
-# Class Methods Testing
+# Class Methods
 
-Ponicode Unit Text Extension now supports method testing.
-
-> **<span style="color:green">NOTE<span>**
-> 
-> Method support is available for JavaScript & TypeScript
+Ponicode Unit Text Extension supports generating unit tests for method.
 
 #### Steps
 1. Identify a method you want to test

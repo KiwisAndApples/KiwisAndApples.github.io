@@ -1,40 +1,43 @@
 <!-- docs/_sidebar.md -->
 
-- [Ponicode Unit Test Extension](ut_extension/)
-  - [Get Started](ut_extension/get_started/)
-    - [Installation](ut_extension/get_started/installation.md)
-    - [Start or Stop Ponicode](ut_extension/get_started/startStopPonicode.md)
+- [Ponicode VSCode Extension](vscode_extension/)
+  - [Get Started](vscode_extension/get_started/)
+    - [Installation](vscode_extension/get_started/installation.md)
+    - [Start or Stop Ponicode](vscode_extension/get_started/startStopPonicode.md)
       <!-- - [Create a test manually] -->
-  - [Ponicode Unit Test (GUI)](ut_extension/gui_test/)
-    - [Opening the Ponicode Interface](ut_extension/gui_test/open_gui.md)
-    - [Your first Unit Test](ut_extension/gui_test/firstUtGUI.md)
+  - [Ponicode Unit Test (GUI)](vscode_extension/gui_test/)
+    - [Opening the Ponicode Interface](vscode_extension/gui_test/open_gui.md)
+    - [Your first Unit Test](vscode_extension/gui_test/firstUtGUI.md)
     <!-- - [Intro] -->
-    - [The Unit Tests section](ut_extension/gui_test/unitTests.md)
-    - [Suggestions](ut_extension/gui_test/suggestions.md)
+    - [The Unit Tests section](vscode_extension/gui_test/unitTests.md)
+    - [Suggestions](vscode_extension/gui_test/suggestions.md)
         <!-- - [Adding or removing columns] -->
       <!-- - [The bold symbol] -->
       <!-- - [The coverage indication] -->
       <!-- - [Modify the test description] -->
-    - [Interface cells](ut_extension/gui_test/cell.md)
-    - [Testing class methods](ut_extension/gui_test/classMethods.md)
-    - [Mocking](ut_extension/gui_test/mocking.md)
-    - [Running your tests](ut_extension/gui_test/runningTests.md)
+    - [Interface cells](vscode_extension/gui_test/cell.md)
+    - [Class methods](vscode_extension/gui_test/classMethods.md)
+    - [Mocking](vscode_extension/gui_test/mocking.md)
+    - [Running your tests](vscode_extension/gui_test/runningTests.md)
       <!-- - [How suggestions work] -->
       <!-- - [Assertions and matchers] -->
-    - [Currying](ut_extension/gui_test/currying.md)
-    - [Modifying the test file](ut_extension/gui_test/modifyingTestFile.md)
-    - [Supported import syntax](ut_extension/gui_test/importSyntax.md)
-    - [Sending us feedback](ut_extension/gui_test/feedback.md)
+    - [Currying](vscode_extension/gui_test/currying.md)
+    - [Modifying the test file](vscode_extension/gui_test/modifyingTestFile.md)
+    - [Supported import syntax](vscode_extension/gui_test/importSyntax.md)
+    - [Sending us feedback](vscode_extension/gui_test/feedback.md)
     <!-- - [Coverage calculation] -->
-    - [Settings](ut_extension/gui_test/configuration/)
-      - [Runner](ut_extension/gui_test/configuration/runner.md)
-      - [Test Location](ut_extension/gui_test/configuration/testLocation.md)
-  - [Ponicode Flash Test](ut_extension/flash_test/)
-  - [The Side Panel](ut_extension/side_panel/)
-  - [Supported Technologies](ut_extension/supported_technologies/)
+    - [Settings](vscode_extension/gui_test/configuration/)
+      - [Runner](vscode_extension/gui_test/configuration/runner.md)
+      - [Test Location](vscode_extension/gui_test/configuration/testLocation.md)
+  - [Ponicode Flash Test](vscode_extension/flash_test/)
+  - [The Side Panel](vscode_extension/side_panel/)
+  - [Supported Technologies](vscode_extension/supported_technologies/)
     <!-- - [Languages] -->
     <!-- - [Test Frameworks] -->
     <!-- - [Environments] -->
+- [Ponicode IntelliJ Plugin](intellij_plugin/)
+  - [Set up](intellij_plugin/setup.md)
+  - [How to use](intellij_plugin/use.md)
 - [Ponicode CLI](cli/)
   - [Installation](cli/installation.md)
   - [Using Ponicode CLI](cli/how-to.md)
