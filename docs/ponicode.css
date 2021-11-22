@@ -315,7 +315,7 @@ main.hidden {
 }
 
 .anchor span {
-    color: #34495e
+    color: #3fc93f
 }
 
 .anchor:hover {
@@ -530,7 +530,7 @@ body.sticky .sidebar-toggle {
 }
 
 .markdown-section p.tip em {
-    color: #34495e
+    color: #3fc93f;
 }
 
 .markdown-section p.warn {
