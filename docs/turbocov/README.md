@@ -61,7 +61,23 @@ Figures are based on industry-standard statistics.
 
 #### Understand you KPIs
 
+**Summary**
+The summary section gives you an overview of the improvements that Ponicode Turbocov was able to bring to your project through new unit tests generated.
 
-#### Export as PDF
+**Benefits**
+* **Developer Happiness**: 
+* **Velocity**:
+* **Potential client complaints from bugs**: 
+* **Maintainability**:
+
+**Test Metrics**
+* **Coverage**: The coverage metric indicated here refers only to the coverage generated through Ponicode Turbocov tests. It refers to the last successful run of Jest performed by Ponicode, and it is calculated only on the files on which you have run Ponicode turbocov (e.g. if you launched `ponicode test` on a folder `./src/api` but not on `./src/admin`, you will only see the coverage relative to the folder `api`). If you consider this metric to be incorrect, try running `ponicode cov run` to re-launch the coverage calculation. You can also edit your `jest.config.json` if you need to specify particular Jest configuration.
+
+* **Edge Cases**:
+* **Critical functions tested**:
+* **Unit tests**:
+
+**Export as PDF**
 
 At any time you can export your dashboard as a PDF by clicking on the top right button on the dashboard tab. 
+This is particularly useful if you want to share it with a client, prospective client or team member. 
