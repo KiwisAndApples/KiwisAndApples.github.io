@@ -1129,7 +1129,7 @@ a.nav-link-2:hover {
     transition-property: none;
     color: #0f1245;
     font-weight: 700;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .nav-link-2.border {
