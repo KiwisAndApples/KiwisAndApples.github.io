@@ -6,6 +6,10 @@ On this site you will be able to find the documentation for all Ponicode's produ
 
 1. **[Ponicode VSCode Extension](vscode_extension/)**
 
+<p align="left">
+    <img src="images/vscode.png" alt="vscode" width="650"/>
+</p>
+
 An IDE extension which allows you to generate Unit Tests for your Javascript, Typescript and Python code in a matter of seconds, either through an intuitive GUI or thorgh a one-click command.
 
 2. **[Ponicode IntelliJ Plugin](intellij_plugin/)**
