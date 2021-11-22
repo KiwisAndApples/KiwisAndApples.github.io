@@ -317,7 +317,7 @@ main.hidden {
 }
 
 .anchor span {
-    color: var(--section-color);
+    color: var(--section-link-color);
 }
 
 .anchor:hover {
