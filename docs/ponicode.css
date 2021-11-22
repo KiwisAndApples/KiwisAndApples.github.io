@@ -1124,14 +1124,14 @@ pre:after {
 
 a.nav-link-2:hover {
     opacity: 1;
-    color: red;
+    color: var(--section-link-color);
     text-decoration: underline;
 }
 
 .nav-link-2.w--current {
     -webkit-transition-property: none;
     transition-property: none;
-    color: red;
+    color: var(--section-link-color);
     font-weight: 700;
     /* text-decoration: underline; */
 }
@@ -1141,7 +1141,7 @@ a.nav-link-2:hover {
     padding: 11px 42px 10px;
     border-style: solid;
     border-width: 1px;
-    border-color: red;
+    border-color: var(--section-link-color);
     border-radius: 50px;
     opacity: 1;
     -webkit-transition: background-color 200ms ease;
@@ -1149,8 +1149,8 @@ a.nav-link-2:hover {
 }
 
 .nav-link-2.border:hover {
-    border-color: red;
-    background-color: red;
+    border-color: var(--section-link-color);
+    background-color: var(--section-link-color);
     color: #fff;
 }
 
@@ -1166,7 +1166,7 @@ a.nav-link-2:hover {
 
 .nav-link-2.border.white:hover {
     background-color: #fff;
-    color: red;
+    color: var(--section-link-color);
     text-decoration: none;
 }
 
