@@ -4,7 +4,7 @@ Ponicode TurboCov is an all-in-one solution to generate 80% code coverage on Typ
 
 TurboCov is available for **TypeScript** back-end projects.
 
-Coming soon: ***JavaScript***, ***Python***, ***Java***
+> **Coming soon**: ***JavaScript***, ***Python***, ***Java***
 
 #### Access
 
