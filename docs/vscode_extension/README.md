@@ -1,5 +1,9 @@
 # The Ponicode VSCode extension
 
+<p align="right" style="margin-top: -80px">
+    <img src="images/vscode.png" alt="vscode" width="85"/>
+</p>
+
 Ponicode VSCode extension is an IDE extension which allows to generate Unit Tests for your Javascript, Typescript and Python code in a matter of seconds.
 
 Follow the [Get Started guide](vscode_extension/get_started/) to learn how to install and activate the extension.

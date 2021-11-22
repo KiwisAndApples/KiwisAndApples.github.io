@@ -5,7 +5,7 @@ On this site you will be able to find the documentation for all Ponicode's produ
 1. **[Ponicode VSCode Extension](vscode_extension/)**
 
 <p align="right" style="margin-top: -43px">
-    <img src="images/vscode.png" alt="vscode" width="46"/>
+    <img src="images/vscode.png" alt="vscode" width="40"/>
 </p>
 
 An IDE extension which allows you to generate Unit Tests for your Javascript, Typescript and Python code in a matter of seconds, either through an intuitive GUI or thorgh a one-click command.
@@ -20,8 +20,8 @@ A JetBrains plugin with which you can generate your test in one click !
 
 3. **[Ponicode CLI](cli/)**
 
-<p align="right" style="margin-top: -43px">
-    <img src="images/npm.png" alt="vscode" width="46"/>
+<p align="right" style="margin-top: -23px">
+    <img src="images/npm.png" alt="vscode" width="52"/>
 </p>
 
 An NPM package which allows to generate unit tests in bulk for a whole file, directory or project, directly from the command line.

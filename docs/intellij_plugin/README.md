@@ -1,3 +1,9 @@
+# The Ponicode IntelliJ Plugin
+
+<p align="right" style="margin-top: -80px">
+    <img src="images/intellij.png" alt="vscode" width="90"/>
+</p>
+
 Ponicode IntelliJ IDEA extension is an IDE extension which allows to generate Unit Tests for your Java code in seconds.
 
 Follow the [Get Started guide](intellij_plugin/setup.md) to learn how to install and activate the extension.
