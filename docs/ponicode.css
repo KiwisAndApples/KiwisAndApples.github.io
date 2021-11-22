@@ -832,14 +832,11 @@ body {
     font-weight: 700
 }
 
-.markdown-section strong {
-    color: var(--text-color) !important;
-    font-weight: 700
+.markdown-section a {
+    color: var(--section-link-color);
 }
 
-.markdown-section a,
 .markdown-section a strong {
-    color: var(--section-link-color);
     font-weight: 700
 }
 
@@ -1124,14 +1121,14 @@ pre:after {
 
 a.nav-link-2:hover {
     opacity: 1;
-    color: var(--section-link-color);
+    color: #0f1245;
     text-decoration: underline;
 }
 
 .nav-link-2.w--current {
     -webkit-transition-property: none;
     transition-property: none;
-    color: var(--section-link-color);
+    color: #0f1245;
     font-weight: 700;
     /* text-decoration: underline; */
 }
@@ -1141,7 +1138,7 @@ a.nav-link-2:hover {
     padding: 11px 42px 10px;
     border-style: solid;
     border-width: 1px;
-    border-color: var(--section-link-color);
+    border-color: #0f1245;
     border-radius: 50px;
     opacity: 1;
     -webkit-transition: background-color 200ms ease;
@@ -1149,8 +1146,8 @@ a.nav-link-2:hover {
 }
 
 .nav-link-2.border:hover {
-    border-color: var(--section-link-color);
-    background-color: var(--section-link-color);
+    border-color: #0f1245;
+    background-color: #0f1245;
     color: #fff;
 }
 
@@ -1166,7 +1163,7 @@ a.nav-link-2:hover {
 
 .nav-link-2.border.white:hover {
     background-color: #fff;
-    color: var(--section-link-color);
+    color: #0f1245;
     text-decoration: none;
 }
 

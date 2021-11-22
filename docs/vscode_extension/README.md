@@ -1,4 +1,4 @@
-## The Ponicode VSCode extension
+# The Ponicode VSCode extension
 
 Ponicode VSCode extension is an IDE extension which allows to generate Unit Tests for your Javascript, Typescript and Python code in a matter of seconds.
 
