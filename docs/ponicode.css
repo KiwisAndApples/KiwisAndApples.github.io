@@ -317,7 +317,7 @@ main.hidden {
 }
 
 .anchor span {
-    color: #3fc93f
+    color: var(--section-color);
 }
 
 .anchor:hover {
