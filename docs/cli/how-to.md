@@ -73,6 +73,7 @@ If you want to test the capabilities of Ponicode CLI, but don't want it to gener
 ponicode test --dry-run src/api/**.js
 ```
 
+
 #### Use Rewire (`--rewire / -r`)
 
 By default, Ponicode does not generate unit tests for functions that are **not** exported. 
@@ -86,6 +87,7 @@ When using this flag, please keep in mind that:
 - using `rewire` might require additional configuration on your side for Jest to be able to run your tests.
 - `Jest` excludes rewired tests from its coverage calculations 
 
+
 #### Dashboard (`--dashboard / -d`) [TS only]
 
 If you have subscribed to the [Premium plan](https://app.ponicode.com/account/billing/plan), you can have access to the advanced TurboCov dashboard for your TypeScript project. To do so, add the option `--dashboard` (or `-d`):
@@ -97,6 +99,7 @@ ponicode test --dashboard ./src
 As well as generating your test files, this command will **run** them using Jest, and upload coverage information to the TurboCov Dashboard.
 
 You can find more information on the [dashboard page](platform/dashboard.md) of the Docs.
+
 
 #### (Re)run test [TS only]
 
