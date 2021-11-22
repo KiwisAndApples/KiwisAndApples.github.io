@@ -1,5 +1,3 @@
-# How to use
-
 There are three ways you can run Ponicode FlashTest on your function.
 
 #### Click on the unicorn!
