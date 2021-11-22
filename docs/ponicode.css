@@ -16,7 +16,7 @@
     --link-color: #0f1245;
     --text-color: #0f1245;
     --section-color: #17a2b8;
-    --section-link-color: #0f1245;
+    --section-link-color: #17a2b8;
     --code-color: #17a2b8;
 }
 
@@ -316,9 +316,9 @@ main.hidden {
     transition: all .3s
 }
 
-/* .anchor span {
+.anchor span {
     color: var(--section-color);
-} */
+}
 
 .anchor:hover {
     text-decoration: underline
