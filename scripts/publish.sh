@@ -24,8 +24,8 @@ then
     cp -r $SOURCE_DIRECTORY $TMP_DIR
     cd $TMP_DIR
 
-    git config user.email 'aljosha@ponicode.com'
-    git config user.name 'Aljosha Armitano'
+    git config user.email 'accounts@ponicode.dev'
+    git config user.name 'Ponicode Team'
     git add $SOURCE_DIRECTORY
     git commit -m $COMMIT_MESSAGE
     git push origin $TARGET_BRANCH

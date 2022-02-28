@@ -1,4 +1,5 @@
 .vscode
 *.ignore.*
 .DS_Store
+.jekyll-cache
 _site

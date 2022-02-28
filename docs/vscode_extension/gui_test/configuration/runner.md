@@ -4,7 +4,7 @@
 The test runner is configured via 2 means: throught VSCode and with config files.
 #### VSCode settings
 
-Open your VSCode settings `File > Preferences > Settings` or `CTRL + ,` (Windows and Linux) or `CMD + ,` (Macos). Then search for "Ponicode"
+Open your VSCode settings `File > Preferences > Settings` or <kbd>CTRL</kbd> + <kbd>,</kbd> (Windows and Linux) or <kbd>CMD</kbd> + <kbd>,</kbd> (Macos). Then search for "Ponicode".
 
 <p align="center">
     <img src="vscode_extension/gui_test/configuration/images/ponicode_settings.png"  width="700"/>

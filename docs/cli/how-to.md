@@ -35,7 +35,7 @@ If you want to add test files for specific source files, you can specify which o
 ponicode test src/utils.ts src/superFile.ts
 ```
 
-**Glob pattern (`**/\*`)\*\*
+**Glob pattern (`**/\*`)**
 
 Maybe you're too lazy to write _every_ single files in the command line, and want to use a glob pattern to fetch them all?
 

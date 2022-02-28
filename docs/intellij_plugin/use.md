@@ -2,6 +2,10 @@
 
 There are three ways you can run **Ponicode Flash Test** on your function.
 
+> **<span style="color:green">NOTE<span>**
+>
+> At the moment Ponicode works only with Maven project so make sure you open IntelliJ at the root of your Maven project ie where you `pom.xml` lies
+
 #### Click on the unicorn!
 
 
@@ -24,4 +28,4 @@ By right-clicking anywhere inside a supported function, you will see the option 
 
 #### No click, just keyboard
 
-You can launch Ponicode using the keyboard shortcut  `ctrl`+`alt`+`A` then `C`.
+You can launch Ponicode using the keyboard shortcut  <kbd>ctrl</kbd>+ <kbd>alt</kbd>+<kbd>A</kbd>, then <kbd>C</kbd>.

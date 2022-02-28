@@ -8,6 +8,10 @@ You can install the Ponicode IntelliJ extension directly from the [**JetBrains m
 
 #### Login
 
+> **<span style="color:green">NOTE<span>**
+>
+> Note that the intellij plugin uses the same authentification than [Ponicode CLI](cli/), so if you are already logged in on Ponicode CLI, you can skip this step
+
 Once you have installed the extension you won't be able to use the ponicode features as long as you haven't logged in to our service. But don't worry it's pretty easy. Normally in the few seconds that follows the installation you should see a balloon notification telling you you are not logged, you just have to click the **Log In** button inside the popup to be redirected to our authentification platform.
 
 <p align="center">
@@ -25,3 +29,9 @@ After that you can go back to your IDE and [start using ponicode](intellij_plugi
 Note that as long as you have not logged, you will see the ponies but you get a balloon popup everytime you try to generate your tests.
 
 [extension]: https://plugins.jetbrains.com/plugin/17980-ponicode
+
+<div align="right">
+    <a href="#/intellij_plugin/use.md" >
+        > How to use Intellij Plugin
+    </a>
+</div>

@@ -38,6 +38,7 @@
 - [Ponicode IntelliJ Plugin](intellij_plugin/)
   - [Set up](intellij_plugin/setup.md)
   - [How to use](intellij_plugin/use.md)
+  - [Supported](intellij_plugin/supported.md)
 - [Ponicode CLI](cli/)
   - [Installation](cli/installation.md)
   - [Using Ponicode CLI](cli/how-to.md)
