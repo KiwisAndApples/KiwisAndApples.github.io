@@ -1,3 +1,10 @@
+---
+layout: default
+title: Readme
+parent: Dogstring
+nav_order: 1
+---
+
 # Ponicode DogString
 
 Ponicode DogString generate docstring for all your Python functions in a matter of seconds.

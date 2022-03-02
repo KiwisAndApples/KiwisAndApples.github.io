@@ -1,3 +1,10 @@
+---
+layout: default
+title: Try Ponicode Dogstring
+parent: Dogstring
+nav_order: 2
+---
+
 # DogString Playground
 
 You can access the [DogString Playground](https://api.ponicode.com/playground/) at https://api.ponicode.com/playground/.

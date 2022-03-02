@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ponicode DogString Action
+parent: Dogstring
+nav_order: 3
+---
+
 # Ponicode DogString Action
 
 #### Why a Github Action?

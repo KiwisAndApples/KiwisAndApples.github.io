@@ -1,3 +1,10 @@
+---
+layout: default
+title: Readme
+parent: CLI
+nav_order: 1
+---
+
 # Ponicode CLI
 
 

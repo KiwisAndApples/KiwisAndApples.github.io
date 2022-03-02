@@ -1,3 +1,10 @@
+---
+layout: default
+title: Installation
+parent: CLI
+nav_order: 2
+---
+
 # Installation and setup
 
 #### Install Ponicode CLI

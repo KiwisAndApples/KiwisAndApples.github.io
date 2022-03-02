@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Readme
-parent: Turbocov
+parent: Turbocov2
 nav_order: 1
+grand_parent: CLI
 ---
 
 Ponicode TurboCov is an all-in-one solution to generate 80% code coverage on TypeScript backend projects and get access to a code quality dashboard.

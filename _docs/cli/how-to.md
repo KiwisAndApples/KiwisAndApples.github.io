@@ -1,3 +1,10 @@
+---
+layout: default
+title: How to
+parent: CLI
+nav_order: 3
+---
+
 # Using Ponicode CLI
 
 > **Warning**:
