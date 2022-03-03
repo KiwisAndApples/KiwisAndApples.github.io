@@ -1,0 +1,13 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: inherit;
+    line-height: $body-line-height;
+    color: $body-text-color;
+    background-color: $body-background-color;
+  }
+
+.aux-nav-list .aux-nav-list-item {
+  &:hover {
+    text-decoration: underline;
+  }
+}
