@@ -34,7 +34,7 @@ Finally you can right click on the function you want to test, and select `Ponico
 </p>
 
 <div align="right">
-    <a href="#//docs/vscode_extension/gui_test/firstUtGUI.md" >
+    <a href="/docs/vscode_extension/gui_test/firstUtGUI" >
         > Your first Unit Test
     </a>
 </div>
