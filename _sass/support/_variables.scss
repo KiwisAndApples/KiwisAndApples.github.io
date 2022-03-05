@@ -70,6 +70,11 @@ $red-100: #f96e65 !default;
 $red-200: #e94c4c !default;
 $red-300: #dd2e2e !default;
 
+$brand-text-color: #0F1245;
+$brand-alt-color: #FF9F36;
+$brand-alt-color-2: #3FC93F;
+$brand-alt-color-3: #FF475A;
+
 $body-background-color: $white !default;
 $sidebar-color: $grey-lt-000 !default;
 $search-background-color: $white !default;
@@ -77,12 +82,12 @@ $table-background-color: $white !default;
 $code-background-color: $grey-lt-000 !default;
 $feedback-color: darken($sidebar-color, 3%) !default;
 
-$body-text-color: $grey-dk-100 !default;
+$body-text-color: $brand-text-color !default;
 $body-heading-color: $grey-dk-300 !default;
 $search-result-preview-color: $grey-dk-000 !default;
 $nav-child-link-color: $grey-dk-100 !default;
-$link-color: $purple-000 !default;
-$btn-primary-color: $purple-100 !default;
+$link-color: $brand-alt-color-3 !default;
+$btn-primary-color: $brand-alt-color-2 !default;
 $base-button-color: #f7f7f7 !default;
 
 //
