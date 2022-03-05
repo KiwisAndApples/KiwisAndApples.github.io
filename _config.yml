@@ -24,9 +24,10 @@ aux_links:
 
 # Build settings
 #theme: minima
-theme: just-the-docs
+#theme: just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # exclude:
 #   - .sass-cache/
