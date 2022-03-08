@@ -1,3 +1,13 @@
+---
+layout: default
+title: Class Methods
+parent: Ponicode Unit Test (GUI)
+nav_order: 6
+grand_parent: The Ponicode VSCode extension
+has_children: false
+has_toc: false
+---
+
 # Class Methods
 
 Ponicode Unit Text Extension supports generating unit tests for method.
@@ -60,7 +70,7 @@ export class Requestor {
 A `Requestor` class object is available. Right-click on the `get_post_response` method and select *"Ponicode: Unit Test"*. The Ponicode Webview on the right contains a new section named **Before each**
 
 <p align="center">
-    <img src="vscode_extension/gui_test/images/methods_1.png" alt="before_each" width="700"/>
+    <img src="/docs/vscode_extension/gui_test/images/methods_1.png" alt="before_each" width="700"/>
 </p>
 
 This section allows you to instantiate a context before testing your methods. You can for example instantiate you class instance.
@@ -85,7 +95,7 @@ describe("inst.get_post_response", () => {
 
 
 <div align="right">
-    <a href="#/vscode_extension/gui_test/mocking.md" >
+    <a href="#//docs/vscode_extension/gui_test/mocking.md" >
         > Mocking
     </a>
 </div>

@@ -1,3 +1,13 @@
+---
+layout: default
+title: Currying
+parent: Ponicode Unit Test (GUI)
+nav_order: 9
+grand_parent: The Ponicode VSCode extension
+has_children: false
+has_toc: false
+---
+
 # Curried functions
 
 We call curried functions those function that take (at least) one argument, and return another function that in turns takes another argument.
@@ -18,19 +28,19 @@ Curried input parameters do not appear by default when opening the Ponicode inte
 For instance, when opening the Ponicode GUI on the function `sum`, a single input parameter column will be present, corresponding to the first parameter `a`.
 
 <p align="center">
-    <img src="vscode_extension/gui_test/images/curry_1.png" alt="input-column-selector" width="700"/>
+    <img src="/docs/vscode_extension/gui_test/images/curry_1.png" alt="input-column-selector" width="700"/>
 </p>
 
 In order to add a column for one (or multiple) curried parameters, open the **input column selector** by clicking on the cog icon [⚙] to the right of the *inputs* title.
 
 <p align="center">
-    <img src="vscode_extension/gui_test/images/curry_column_selector.png" alt="input-column-selector" width="500"/>
+    <img src="/docs/vscode_extension/gui_test/images/curry_column_selector.png" alt="input-column-selector" width="500"/>
 </p>
 
 The column for the new curried parameter will appear in green (different from blue, used for standard parameters). 
 
 <p align="center">
-    <img src="vscode_extension/gui_test/images/curry_2.png" alt="input-column-selector" width="700"/>
+    <img src="/docs/vscode_extension/gui_test/images/curry_2.png" alt="input-column-selector" width="700"/>
 </p>
 
 The generated unit test will look something like this: 
@@ -51,7 +61,7 @@ sum(2)(8, 13)
 For the moment, Ponicode only suggest meaningful input values for the arguments of the "parent" function. Value suggestions for the curried arguments are always `undefined`, but you can manually modify them to fit your needs.
 
 <p align="center">
-    <img src="vscode_extension/gui_test/images/curry_suggestions.png" alt="input-column-selector" width="650"/>
+    <img src="/docs/vscode_extension/gui_test/images/curry_suggestions.png" alt="input-column-selector" width="650"/>
 </p>
 
 #### Limitations
@@ -68,7 +78,7 @@ sum(100)(15)(28)
 ```
 
 <div align="right">
-    <a href="#/vscode_extension/gui_test/modifyingTestFile.md" >
+    <a href="#//docs/vscode_extension/gui_test/modifyingTestFile.md" >
         > Modifying the test file
     </a>
 </div>

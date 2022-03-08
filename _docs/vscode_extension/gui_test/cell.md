@@ -1,3 +1,13 @@
+---
+layout: default
+title: Interface Cells
+parent: Ponicode Unit Test (GUI)
+nav_order: 5
+grand_parent: The Ponicode VSCode extension
+has_children: false
+has_toc: false
+---
+
 # What can be entered in a cell
 
 Each row in the Ponicode interface corresponds to a test case. Each cell corresponds to a value - be it an input value, a mock value, an assertion value, or a value that indicates the tested instance.
@@ -67,7 +77,7 @@ Please note that objects instanciated with a *static* constructor will not appea
 
 
 <div align="right">
-    <a href="#/vscode_extension/gui_test/classMethods.md" >
+    <a href="/docs/vscode_extension/gui_test/classMethods" >
         > Testing class methods
     </a>
 </div>

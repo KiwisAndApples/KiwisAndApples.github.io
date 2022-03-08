@@ -1,3 +1,13 @@
+---
+layout: default
+title: Modifying the test file
+parent: Ponicode Unit Test (GUI)
+nav_order: 10
+grand_parent: The Ponicode VSCode extension
+has_children: false
+has_toc: false
+---
+
 # Modifying the test file
 
 Ponicode allows you to generate a test file automatically according to the test cases you are adding.  
@@ -27,7 +37,7 @@ A red bar at the top of the Ponicode interface indicates that Ponicode is encoun
 This could be due to network errors or to a real parsing issue. If you encounter such a situation do not hesitate to contact the Ponicode team at ping@ponicode.com.
 
 <div align="right">
-    <a href="#/vscode_extension/gui_test/importSyntax.md" >
+    <a href="#//docs/vscode_extension/gui_test/importSyntax.md" >
         > Supported import syntax
     </a>
 </div>

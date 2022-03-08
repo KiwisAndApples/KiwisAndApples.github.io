@@ -1,3 +1,13 @@
+---
+layout: default
+title: Supported import syntax
+parent: Ponicode Unit Test (GUI)
+nav_order: 11
+grand_parent: The Ponicode VSCode extension
+has_children: false
+has_toc: false
+---
+
 # What syntax of import do we support ?
 
 Imports can be written in various different ways.
@@ -69,7 +79,7 @@ import { cp } from  "child_process"
 ``` 
 
 <div align="right">
-    <a href="#/vscode_extension/gui_test/feedback.md" >
+    <a href="#//docs/vscode_extension/gui_test/feedback.md" >
         > Sending us feedback
     </a>
 </div>

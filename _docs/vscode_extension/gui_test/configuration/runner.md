@@ -1,3 +1,12 @@
+---
+layout: default
+title: Runner settings
+nav_order: 14
+parent: Ponicode Unit Test (GUI)
+grand_parent: The Ponicode VSCode extension
+has_children: true
+has_toc: false
+---
 # Test Runner Settings
 
 ## Javascript
@@ -7,7 +16,7 @@ The test runner is configured via 2 means: throught VSCode and with config files
 Open your VSCode settings `File > Preferences > Settings` or <kbd>CTRL</kbd> + <kbd>,</kbd> (Windows and Linux) or <kbd>CMD</kbd> + <kbd>,</kbd> (Macos). Then search for "Ponicode".
 
 <p align="center">
-    <img src="vscode_extension/gui_test/configuration/images/ponicode_settings.png"  width="700"/>
+    <img src="/docs/vscode_extension/gui_test/configuration/images/ponicode_settings.png"  width="700"/>
 </p>
 
 ⚠️ Please make sure to select __workspace__ tab and not __user__ one.
@@ -15,7 +24,7 @@ Open your VSCode settings `File > Preferences > Settings` or <kbd>CTRL</kbd> + <
 Inside you can configure how the test runner handles typescript files throught the vscode settings.
 
 <p align="center">
-    <img src="vscode_extension/gui_test/configuration/images/runner_1.png"  width="700"/>
+    <img src="/docs/vscode_extension/gui_test/configuration/images/runner_1.png"  width="700"/>
 </p>
 
 There is 3 available values:
@@ -45,7 +54,7 @@ You can find more information about babel [here](https://babeljs.io/docs/en/conf
 The Ponicode Python test runner uses the *Python interpreter* configured in the settings of the [Official Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python). Ensure that you have configured your Python runner. The minimum required version is 3.6.
 
 <div align="right">
-    <a href="#/vscode_extension/gui_test/configuration/testLocation.md" >
+    <a href="#//docs/vscode_extension/gui_test/configuration/testLocation.md" >
         > Test Location 
     </a>
 </div>

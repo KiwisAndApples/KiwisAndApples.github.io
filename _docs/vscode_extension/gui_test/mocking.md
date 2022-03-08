@@ -1,3 +1,13 @@
+---
+layout: default
+title: Mocking
+parent: Ponicode Unit Test (GUI)
+nav_order: 7
+grand_parent: The Ponicode VSCode extension
+has_children: false
+has_toc: false
+---
+
 # Mocking (stubs and spies)
 
 You can use Ponicode to mock return values of callables by following these steps:
@@ -5,19 +15,19 @@ You can use Ponicode to mock return values of callables by following these steps
 1 - Open the Unit Test interface for the function or method you want to test by right-clicking anywhere in the function's body and selecting `Ponicode: Unit Test`, or by simply using the `"ctrl+T"` shortcut.
 
 <p align="center">
-    <img src="vscode_extension/gui_test/images/ponicode_unit_test.png" width="600"/>
+    <img src="/docs/vscode_extension/gui_test/images/ponicode_unit_test.png" width="600"/>
 </p>
 
 2 - When the Ponicode interface opens up, go back to the body of the function in your editor and click right on the function or method you'd like to mock, and select `Ponicode: Mock`
 
 <p align="center">
-    <img src="vscode_extension/gui_test/images/mocking_selection.png" width="600"/>
+    <img src="/docs/vscode_extension/gui_test/images/mocking_selection.png" width="600"/>
 </p>
 
 3 - After performing step 2, notice that 2 new columns appear in the Ponicode Interface: one in the section `mocks`, and one in the section `assertions`. The former one is the stub, the second one is the spy assertion `calledWith`.
 
 <p align="center">
-    <img src="vscode_extension/gui_test/images/mocking_column.png" width="600"/>
+    <img src="/docs/vscode_extension/gui_test/images/mocking_column.png" width="600"/>
 </p>
 
 4 - Enter your desired value in the column `mock` to stub your function with this value. 
@@ -25,7 +35,7 @@ You can use Ponicode to mock return values of callables by following these steps
 Similarly, enter in the the column `calledWithh` an array with the values that the mocked function should have been called with. For instance, if the function should have been called with the values `car` and `6`, enter `["car", 6]`. If desired, you can leave this cell empty, or remove it through the assertion column selector (use the little gear icon on the righ of the title `assertions`) 
 
 <p align="center">
-    <img src="vscode_extension/gui_test/images/mocking_value.png" width="600"/>
+    <img src="/docs/vscode_extension/gui_test/images/mocking_value.png" width="600"/>
 </p>
 
 ## Mocking user-defined functions
@@ -189,7 +199,7 @@ Ponicode can mock global variables that are defined in the same file as the test
 >
 
 <div align="right">
-    <a href="#/vscode_extension/gui_test/runningTests.md" >
+    <a href="#//docs/vscode_extension/gui_test/runningTests.md" >
         > Running your tests
     </a>
 </div>

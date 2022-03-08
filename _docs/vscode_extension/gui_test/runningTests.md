@@ -1,3 +1,13 @@
+---
+layout: default
+title: Running your tests
+parent: Ponicode Unit Test (GUI)
+nav_order: 8
+grand_parent: The Ponicode VSCode extension
+has_children: false
+has_toc: false
+---
+
 # Running your test
 
 You can always use your test runner of choice (Jest, Pytest, etc) to run your tests, but POnicode also allws you to run your tests directly in the Ponicode interface. 
@@ -11,13 +21,13 @@ You can run each test individually by clicking on the <i class="fas fa-play" sty
 If the test passed, you will see a green check right of your test row.
 
 <p align="center">
-    <img src="vscode_extension/gui_test/images/test_case_running_1.png"  width="500"/>
+    <img src="/docs/vscode_extension/gui_test/images/test_case_running_1.png"  width="500"/>
 </p>
 
 If the test fails, you will see a red cross (<i class="fas fa-times" style="color:red"></i>) icon. You can then make the test pass by clicking on the bolt icon (<i class="fas fa-bolt" style="color:orange"></i>) to correct it.
 
 <p align="center">
-    <img src="vscode_extension/gui_test/images/test_case_running_2.png"  width="500"/>
+    <img src="/docs/vscode_extension/gui_test/images/test_case_running_2.png"  width="500"/>
 </p>
 
 
@@ -26,7 +36,7 @@ If the test fails, you will see a red cross (<i class="fas fa-times" style="colo
 Watch mode can automaticaly run your tests when needed. You can enable it using the toggle in to top right corner.
 
 <p align="center">
-    <img src="vscode_extension/gui_test/images/test_case_running_3.png"  width="500"/>
+    <img src="/docs/vscode_extension/gui_test/images/test_case_running_3.png"  width="500"/>
 </p>
 
 #### Troubleshooting
@@ -34,7 +44,7 @@ Watch mode can automaticaly run your tests when needed. You can enable it using 
 **"Failed to import some files"**
 
 <p align="center">
-    <img src="vscode_extension/gui_test/images/test_case_running_4.png"  width="300"/>
+    <img src="/docs/vscode_extension/gui_test/images/test_case_running_4.png"  width="300"/>
 </p>
 
 
@@ -43,7 +53,7 @@ This probably means that you have a typo in your imports or that the module you 
 **"Failed to evaluate beforeEach"
 
 <p align="center">
-    <img src="vscode_extension/gui_test/images/before_each_error.png" alt="before_each_error" width="500"/>
+    <img src="/docs/vscode_extension/gui_test/images/before_each_error.png" alt="before_each_error" width="500"/>
 </p>
 
 This usually means that there is a syntax error in the before each.
@@ -74,7 +84,7 @@ For advanced use of Jest, refer to the [official docs](https://jestjs.io/docs/ge
 
 
 <div align="right">
-    <a href="#/vscode_extension/gui_test/currying.md" >
+    <a href="#//docs/vscode_extension/gui_test/currying.md" >
         > Currying
     </a>
 </div>
