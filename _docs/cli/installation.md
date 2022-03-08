@@ -67,7 +67,7 @@ npm install --save-dev jest@26 @types/jest ts-jest@26 class-transformer # unit t
 ```
 
 <div align="right">
-    <a href="#/cli/how-to.md" >
+    <a href="/docs/cli/how-to" >
         > Use Ponicode CLI
     </a>
 </div>

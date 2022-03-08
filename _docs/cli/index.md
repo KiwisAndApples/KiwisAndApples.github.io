@@ -11,8 +11,8 @@ has_toc: false
 
 Ponicode CLI allows to generate unit tests in bulk for a whole file, directory or project, directly from the command line.
 
-- [Installation guide](cli/installation.md)
-- [Using Ponicode CLI](cli/how-to.md)
+- [Installation guide](/docs/cli/installation)
+- [Using Ponicode CLI](/docs/cli/how-to)
 
 <p align="center">
     <img src="/docs/images/npm.png" alt="cli" width="120"/>
