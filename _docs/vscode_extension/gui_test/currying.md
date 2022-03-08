@@ -78,7 +78,7 @@ sum(100)(15)(28)
 ```
 
 <div align="right">
-    <a href="#//docs/vscode_extension/gui_test/modifyingTestFile.md" >
+    <a href="/docs/vscode_extension/gui_test/modifyingTestFile" >
         > Modifying the test file
     </a>
 </div>

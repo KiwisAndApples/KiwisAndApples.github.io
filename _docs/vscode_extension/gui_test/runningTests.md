@@ -84,7 +84,7 @@ For advanced use of Jest, refer to the [official docs](https://jestjs.io/docs/ge
 
 
 <div align="right">
-    <a href="#//docs/vscode_extension/gui_test/currying.md" >
+    <a href="/docs/vscode_extension/gui_test/currying" >
         > Currying
     </a>
 </div>

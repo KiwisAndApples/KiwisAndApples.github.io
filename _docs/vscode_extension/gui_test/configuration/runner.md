@@ -54,7 +54,7 @@ You can find more information about babel [here](https://babeljs.io/docs/en/conf
 The Ponicode Python test runner uses the *Python interpreter* configured in the settings of the [Official Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python). Ensure that you have configured your Python runner. The minimum required version is 3.6.
 
 <div align="right">
-    <a href="#//docs/vscode_extension/gui_test/configuration/testLocation.md" >
+    <a href="/docs/vscode_extension/gui_test/configuration/testLocation" >
         > Test Location 
     </a>
 </div>

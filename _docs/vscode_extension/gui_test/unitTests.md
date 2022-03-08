@@ -9,7 +9,7 @@ has_toc: false
 ---
 # The Unit Tests Section
 
-The Unit Tests section in the Ponicode interface is your way to directly interact with your test file. When you open the interface, Ponicode looks for your test file (more information about test file location [here](/docs/vscode_extension/gui_test/configuration/testLocation.md)). In the file exists, this section will be populated with the test cases found in said file. If not, Ponicode creates the file for you as soon as you add your first test case.
+The Unit Tests section in the Ponicode interface is your way to directly interact with your test file. When you open the interface, Ponicode looks for your test file (more information about test file location [here](/docs/vscode_extension/gui_test/configuration/testLocation)). In the file exists, this section will be populated with the test cases found in said file. If not, Ponicode creates the file for you as soon as you add your first test case.
 
 When you add or remove a test case in this section, your test file is updated in real time and vice versa.
 
@@ -28,7 +28,7 @@ You can also add test cases chosen from the selection of suggestions proposed to
 </p>
 
 ## Updating Test Cases
-All input and outputs values are editable cells. You can complete or overwrite them whenever you want. See the dedicated docs page for more information on [what can be entered in a cell](/docs/vscode_extension/gui_test/cell.md).
+All input and outputs values are editable cells. You can complete or overwrite them whenever you want. See the dedicated docs page for more information on [what can be entered in a cell](/docs/vscode_extension/gui_test/cell).
 
 ## Removing Test Cases
 

@@ -36,7 +36,7 @@ If you spot some test cases that seem relevant to you, you can easily add them t
 </p>
 
 ## Updating Test Cases
-All input and outputs values are editable cells. You can complete or overwrite them whenever you want. See the dedicated docs page for more information on [what can be entered in a cell](/docs/vscode_extension/gui_test/cell.md).
+All input and outputs values are editable cells. You can complete or overwrite them whenever you want. See the dedicated docs page for more information on [what can be entered in a cell](/docs/vscode_extension/gui_test/cell).
 
 ## Removing Test Cases
 To remove a test case, simply click on the <i class="fas fa-trash-alt" style="color:gray"></i>`Bin` icon at the right side of the test case row.

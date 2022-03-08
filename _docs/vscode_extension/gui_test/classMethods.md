@@ -95,7 +95,7 @@ describe("inst.get_post_response", () => {
 
 
 <div align="right">
-    <a href="#//docs/vscode_extension/gui_test/mocking.md" >
+    <a href="/docs/vscode_extension/gui_test/mocking" >
         > Mocking
     </a>
 </div>

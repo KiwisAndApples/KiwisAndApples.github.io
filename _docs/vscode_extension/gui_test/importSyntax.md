@@ -79,7 +79,7 @@ import { cp } from  "child_process"
 ``` 
 
 <div align="right">
-    <a href="#//docs/vscode_extension/gui_test/feedback.md" >
+    <a href="/docs/vscode_extension/gui_test/feedback" >
         > Sending us feedback
     </a>
 </div>

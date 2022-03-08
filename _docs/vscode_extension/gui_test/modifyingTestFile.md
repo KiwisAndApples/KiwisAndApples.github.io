@@ -37,7 +37,7 @@ A red bar at the top of the Ponicode interface indicates that Ponicode is encoun
 This could be due to network errors or to a real parsing issue. If you encounter such a situation do not hesitate to contact the Ponicode team at ping@ponicode.com.
 
 <div align="right">
-    <a href="#//docs/vscode_extension/gui_test/importSyntax.md" >
+    <a href="/docs/vscode_extension/gui_test/importSyntax" >
         > Supported import syntax
     </a>
 </div>

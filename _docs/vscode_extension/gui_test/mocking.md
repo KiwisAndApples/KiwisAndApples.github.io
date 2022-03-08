@@ -199,7 +199,7 @@ Ponicode can mock global variables that are defined in the same file as the test
 >
 
 <div align="right">
-    <a href="#//docs/vscode_extension/gui_test/runningTests.md" >
+    <a href="/docs/vscode_extension/gui_test/runningTests" >
         > Running your tests
     </a>
 </div>

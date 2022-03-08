@@ -5,6 +5,7 @@ nav_order: 5
 has_children: false
 has_toc: false
 ---
+# Ponicode TurboCov
 
 Ponicode TurboCov is an all-in-one solution to generate 80% code coverage on TypeScript backend projects and get access to a code quality dashboard.
 

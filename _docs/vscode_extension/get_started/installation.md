@@ -55,7 +55,7 @@ You can verify that Ponicode's activation was successful by making sure you see 
 [extension]: https://marketplace.visualstudio.com/items?itemName=ponicode.ponicode
 
 <div align="right">
-    <a href="#//docs/vscode_extension/get_started/startStopPonicode.md" >
+    <a href="/docs/vscode_extension/get_started/startStopPonicode" >
         > Start or Stop Ponicode
     </a>
 </div>
