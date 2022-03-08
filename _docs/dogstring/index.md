@@ -20,5 +20,5 @@ Here is an example:
 
 Ponicode Dogstring is available:
 
-* [**In a ready-to-use Playground**](dogstring/try-ponicode-dogstring.md), so you can test its performance and see if it's made for you
-* [**As a fully-fledged Github Action**](dogstring/use-ponicode-dogstring-action.md), which can generate docstrings in bulk for all your Python project
+* [**In a ready-to-use Playground**](/docs/dogstring/try-ponicode-dogstring), so you can test its performance and see if it's made for you
+* [**As a fully-fledged Github Action**](/docs/dogstring/use-ponicode-dogstring-action), which can generate docstrings in bulk for all your Python project
