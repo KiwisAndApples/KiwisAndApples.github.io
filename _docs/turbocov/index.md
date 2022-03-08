@@ -22,9 +22,9 @@ The full range of TurboCov functionalities is only available to users who subscr
 
 The best way to get started with TurboCov is to head to [app.ponicode.com](https://app.ponicode.com/turbocov) and follow the instructions to start a new project.
 
-You will need the npm package [Ponicode CLI](cli/how-to.md) in order to link your project to TurboCov.
+You will need the npm package [Ponicode CLI](/docs/cli/how-to) in order to link your project to TurboCov.
 
-You can link your project to TurboCov using the npm package [Ponicode CLI](cli/how-to.md)
+You can link your project to TurboCov using the npm package [Ponicode CLI](/docs/cli/how-to)
 
 #### What data is recovered by Ponicode?
 
