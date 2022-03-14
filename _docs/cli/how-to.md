@@ -5,6 +5,7 @@ nav_order: 2
 parent: Ponicode CLI
 has_children: false
 has_toc: false
+toc: true
 ---
 
 # Using Ponicode CLI

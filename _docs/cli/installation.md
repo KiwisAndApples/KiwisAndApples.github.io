@@ -7,6 +7,15 @@ has_children: false
 has_toc: false
 ---
 
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 # Installation and setup
 
 #### Install Ponicode CLI
@@ -17,7 +26,7 @@ You can install the Ponicode CLI via npm simply by using this command:
 npm install -g ponicode
 ```
 
-> **<span style="color:green">NOTE<span>**
+> <span style="color:green">**NOTE**<span>
 >
 > No matter the language you wish to test Ponicode CLI on, **Node version 14 (recommended) or 12** is required. [Click here to download node](https://nodejs.org/en/)
 
